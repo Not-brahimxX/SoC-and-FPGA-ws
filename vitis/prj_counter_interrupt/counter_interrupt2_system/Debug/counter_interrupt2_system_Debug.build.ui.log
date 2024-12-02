@@ -1,0 +1,10 @@
+2024-09-04T14:34:50.817339700255-14:34:50 **** Build of configuration Debug for project counter_interrupt2_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 56294 C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/prj_counter_interrupt/export/prj_counter_interrupt/prj_counter_interrupt.xpfm standalone_domain C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/counter_interrupt2_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/prj_counter_interrupt/export/prj_counter_interrupt/prj_counter_interrupt.xpfm --sys_config prj_counter_interrupt --bif C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/counter_interrupt2_system/Debug/system.bif --bitstream C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/counter_interrupt2/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/counter_interrupt2/Debug/counter_interrupt2.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/counter_interrupt2/_ide/bitstream/design_1_wrapper.bit
+000-Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/counter_interrupt2_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+14:35:01 Build Finished (took 10s.914ms)
+

@@ -1,0 +1,7 @@
+/*jtsk2_servo_platforme*/
+the_ROM_image:
+{
+ [bootloader] <jtsk2_servo_platforme/boot/fsbl.elf>
+ <bitstream>
+ <elf,ps7_cortexa9_0>
+}

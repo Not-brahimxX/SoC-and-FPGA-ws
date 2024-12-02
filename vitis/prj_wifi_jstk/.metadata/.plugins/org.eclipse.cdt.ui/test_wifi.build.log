@@ -1,0 +1,23 @@
+15:01:40 **** Incremental Build of configuration Debug for project test_wifi ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/UDPtrans.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/UDPtrans.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include -MMD -MP -MF"src/UDPtrans.d" -MT"src/UDPtrans.o" -o "src/UDPtrans.o" "../src/UDPtrans.cc"
+In file included from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/System.h:54,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/deIP.h:59,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/DEIPcK.h:64,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/PmodWIFI.h:2,
+                 from ../src/UDPtrans.cc:52:
+C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/fpga/System.h:54:10: fatal error: fpga/System.h: No such file or directory
+ #include "fpga/System.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:23: src/UDPtrans.o] Error 1
+make: *** [makefile:46: all] Error 2
+
+15:01:41 Build Finished (took 793ms)
+

@@ -1,0 +1,17 @@
+11:18:10 **** Incremental Build of configuration Debug for project wifi_test ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building target: wifi_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme/export/wifi_platforme/sw/wifi_platforme/standalone_domain/bsplib/lib -o "wifi_test.elf"  ./src/SD/utility/fs_ff.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme/export/wifi_platforme/sw/wifi_platforme/standalone_domain/bsplib/lib\libxil.a(xil-crt0.o): in function `_start':
+C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_wifi\wifi_platforme\ps7_cortexa9_0\standalone_domain\bsp\ps7_cortexa9_0\libsrc\standalone_v7_1\src/xil-crt0.S:136: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:43: wifi_test.elf] Error 1
+make: *** [makefile:34: all] Error 2
+
+11:18:11 Build Finished (took 924ms)
+

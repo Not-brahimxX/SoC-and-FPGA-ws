@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;blink_led/src/helloworld.c&apos;" deleteContents="false" description="Delete resource &apos;blink_led/src/helloworld.c&apos;" element1="/blink_led/src/helloworld.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1725540895244"/>&#x0A;<refactoring comment="Delete resource &apos;prj_led_blink_vhdl&apos;" deleteContents="true" description="Delete resource &apos;prj_led_blink_vhdl&apos;" element1="/prj_led_blink_vhdl" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1725542653898"/>
+</session>

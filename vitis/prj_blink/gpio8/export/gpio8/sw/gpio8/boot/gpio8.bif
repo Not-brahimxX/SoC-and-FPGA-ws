@@ -1,0 +1,7 @@
+/*gpio8*/
+the_ROM_image:
+{
+  [bootloader]<gpio8/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

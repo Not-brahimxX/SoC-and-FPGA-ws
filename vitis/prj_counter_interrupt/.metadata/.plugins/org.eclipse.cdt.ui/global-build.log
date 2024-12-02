@@ -1,0 +1,9 @@
+Nothing to build in platform 'prj_counter_interrupt'
+
+15:41:46 **** Incremental Build of configuration Debug for project counter_interrupt ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.

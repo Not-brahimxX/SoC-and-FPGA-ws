@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN A20 [get_ports g_pin10_io]
+set_property PACKAGE_PIN B19 [get_ports g_pin9_io]
+set_property PACKAGE_PIN B20 [get_ports g_pin8_io]
+set_property PACKAGE_PIN C20 [get_ports g_pin7_io]
+set_property PACKAGE_PIN D18 [get_ports g_pin4_io]
+set_property PACKAGE_PIN D19 [get_ports g_pin3_io]
+set_property PACKAGE_PIN D20 [get_ports g_pin2_io]
+set_property PACKAGE_PIN E17 [get_ports g_pin1_io]

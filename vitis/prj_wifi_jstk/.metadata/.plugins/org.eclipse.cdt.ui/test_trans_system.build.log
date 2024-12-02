@@ -1,0 +1,12 @@
+10:38:58 **** Incremental Build of configuration Debug for project test_trans_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 49783 C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/rhsdfh.xpfm standalone_domain C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/test_trans_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/rhsdfh.xpfm --sys_config rhsdfh --bif C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/test_trans_system/Debug/system.bif --bitstream C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/test_trans/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/test_trans/Debug/test_trans.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/test_trans/_ide/bitstream/design_1_wrapper.bit
+Error: platform file not found: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/boot/fsbl.elf
+Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/test_trans_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+[ERROR]  : Can't read file - C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/boot/fsbl.elf
+
+10:39:10 Build Finished (took 12s.86ms)
+

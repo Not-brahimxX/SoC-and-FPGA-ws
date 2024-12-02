@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="leds-blink-bitFile"/>
+	<item value="false" key="leds-blink-partial_bit"/>
+	<item value="false" key="leds-blink-skip_rev_check"/>
+	<item value="Auto Detect" key="leds-blink-device"/>
+	<item value="" key="leds-blink-bmmFile"/>
+	<item value="leds-blink" key="programfpga.sdxproject"/>
+	<item value="Local" key="leds-blink-target"/>
+</section>

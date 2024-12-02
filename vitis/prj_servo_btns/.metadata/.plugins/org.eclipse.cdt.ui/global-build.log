@@ -1,0 +1,33 @@
+Nothing to build in platform 'prj_servo_btns'
+
+12:11:31 **** Incremental Build of configuration Debug for project servo_btns ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/sw/prj_servo_btns/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'BTN_Intr_Handler':
+../src/helloworld.c:41:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/sw/prj_servo_btns/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: servo_btns.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/sw/prj_servo_btns/standalone_domain/bsplib/lib -o "servo_btns.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: servo_btns.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size servo_btns.elf  |tee "servo_btns.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25692	   1952	  22632	  50276	   c464	servo_btns.elf
+'Finished building: servo_btns.elf.size'
+' '

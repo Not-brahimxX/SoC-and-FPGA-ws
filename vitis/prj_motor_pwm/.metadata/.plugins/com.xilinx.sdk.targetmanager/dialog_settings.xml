@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="test_pwm2-device"/>
+	<item value="_ide/bitstream/design_2_wrapper.bit" key="test_pwm-bitFile"/>
+	<item value="false" key="test_pwm2-partial_bit"/>
+	<item value="Local" key="test_pwm-target"/>
+	<item value="test_pwm2" key="programfpga.sdxproject"/>
+	<item value="" key="test_pwm-bmmFile"/>
+	<item value="Auto Detect" key="test_pwm-device"/>
+	<item value="_ide/bitstream/design_2_wrapper.bit" key="test_pwm2-bitFile"/>
+	<item value="" key="test_pwm2-bmmFile"/>
+	<item value="false" key="test_pwm2-skip_rev_check"/>
+	<item value="Local" key="test_pwm2-target"/>
+	<item value="false" key="test_pwm-partial_bit"/>
+	<item value="false" key="test_pwm-skip_rev_check"/>
+</section>

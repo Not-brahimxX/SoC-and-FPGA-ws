@@ -1,0 +1,7 @@
+/*plat2*/
+the_ROM_image:
+{
+  [bootloader]<plat2/boot/fsbl.elf>
+   <bitstream> 
+  <elf>
+}

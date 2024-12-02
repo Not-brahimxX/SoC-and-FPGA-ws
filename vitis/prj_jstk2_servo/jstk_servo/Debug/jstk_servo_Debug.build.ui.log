@@ -1,0 +1,28 @@
+2024-09-22T11:54:33.734668700255-11:54:33 **** Incremental Build of configuration Debug for project jstk_servo ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/basic_example.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/basic_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/sw/jtsk2_servo_platforme/standalone_domain/bspinclude/include -MMD -MP -MF"src/basic_example.d" -MT"src/basic_example.o" -o "src/basic_example.o" "../src/basic_example.c"
+000/jstk_servo/src/basic_example.c57-1-1'IntcInitFunction' declared 'static' but never defined [-Wunused-function]1-../src/basic_example.c:57:12: warning: 'IntcInitFunction' declared 'static' but never defined [-Wunused-function]
+000- static int IntcInitFunction(u16 DeviceId, XGpio *GpioInstancePtr);
+000-            ^~~~~~~~~~~~~~~~
+000-'Finished building: ../src/basic_example.c'
+000-' '
+000-'Building target: jstk_servo.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/sw/jtsk2_servo_platforme/standalone_domain/bsplib/lib -o "jstk_servo.elf"  ./src/basic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: jstk_servo.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size jstk_servo.elf  |tee "jstk_servo.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  37140	   1592	  23384	  62116	   f2a4	jstk_servo.elf
+000-'Finished building: jstk_servo.elf.size'
+000-' '
+00255-
+11:54:35 Build Finished (took 1s.751ms)
+

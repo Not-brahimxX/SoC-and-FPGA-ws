@@ -1,0 +1,27 @@
+timestamp=[2024-09-24 15:28:09], mode=WORKBENCH_START, duration=0:00:11.362, duration_ms=11362, data={}
+timestamp=[2024-09-24 15:28:11], mode=WORKBENCH_UI_INIT, duration=0:00:01.884, duration_ms=1884, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-09-24 15:29:29], mode=PLATFORM_CREATION, duration=0:00:33.681, duration_ms=33681, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-09-24 15:31:31], mode=PLATFORM_GENERATION, duration=0:01:41.828, duration_ms=101828, data={name=platfir}
+timestamp=[2024-09-24 15:32:21], mode=PLATFORM_CREATION, duration=0:00:14.382, duration_ms=14382, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-09-24 15:33:53], mode=PLATFORM_GENERATION, duration=0:01:24.183, duration_ms=84183, data={name=platfir2}
+timestamp=[2024-09-24 15:36:37], mode=PLATFORM_CREATION, duration=0:00:10.989, duration_ms=10989, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-09-24 15:37:32], mode=PLATFORM_GENERATION, duration=0:00:45.708, duration_ms=45708, data={name=robot_wifi_jstk_plat}
+timestamp=[2024-09-24 15:38:41], mode=PLATFORM_CREATION, duration=0:00:11.099, duration_ms=11099, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-09-24 15:40:19], mode=PLATFORM_GENERATION, duration=0:01:19.118, duration_ms=79118, data={name=rhsdfh}
+timestamp=[2024-09-24 15:41:50], mode=APP_CREATION, duration=0:00:20.671, duration_ms=20671, data={name=test_wifi, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=rhsdfh, application_type=application}
+timestamp=[2024-09-24 15:48:39], mode=APP_CREATION, duration=0:00:14.835, duration_ms=14835, data={name=test_wifi_jstk_trans, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=rhsdfh, application_type=application}
+timestamp=[2024-09-24 16:07:03], mode=APP_CREATION, duration=0:00:15.420, duration_ms=15420, data={name=test_reciver, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=rhsdfh, application_type=application}
+timestamp=[2024-09-25 09:52:15], mode=WORKBENCH_START, duration=0:00:28.346, duration_ms=28346, data={}
+timestamp=[2024-09-25 09:52:19], mode=WORKBENCH_UI_INIT, duration=0:00:04.503, duration_ms=4503, data={editors_count=14, platform_editors_count=3, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rhsdfh,test_reciver,test_reciver_system,test_wifi,test_wifi_jstk_trans,test_wifi_jstk_trans_system,test_wifi_system}
+timestamp=[2024-09-25 10:46:35], mode=APP_CREATION, duration=0:00:20.126, duration_ms=20126, data={name=test_trans, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=rhsdfh, application_type=application}
+timestamp=[2024-09-25 11:32:51], mode=APP_CREATION, duration=0:00:14.819, duration_ms=14819, data={name=test_wifi_jstk_recive, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=rhsdfh, application_type=application}
+timestamp=[2024-09-25 13:28:42], mode=WORKBENCH_START, duration=0:00:16.734, duration_ms=16734, data={}
+timestamp=[2024-09-25 13:28:44], mode=WORKBENCH_UI_INIT, duration=0:00:02.084, duration_ms=2084, data={editors_count=5, platform_editors_count=1, projects_count=12, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,rhsdfh,test_reciver,test_reciver_system,test_trans,test_trans_system,test_wifi,test_wifi_jstk_recive,test_wifi_jstk_recive_system,test_wifi_jstk_trans,test_wifi_jstk_trans_system,test_wifi_system}
+timestamp=[2024-09-25 13:31:14], mode=PLATFORM_GENERATION, duration=0:00:03.159, duration_ms=3159, data={name=rhsdfh}
+timestamp=[2024-09-26 09:13:36], mode=WORKBENCH_START, duration=0:00:21.516, duration_ms=21516, data={}
+timestamp=[2024-09-26 09:13:39], mode=WORKBENCH_UI_INIT, duration=0:00:02.940, duration_ms=2940, data={editors_count=8, platform_editors_count=4, projects_count=12, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rhsdfh,test_reciver,test_reciver_system,test_trans,test_trans_system,test_wifi,test_wifi_jstk_recive,test_wifi_jstk_recive_system,test_wifi_jstk_trans,test_wifi_jstk_trans_system,test_wifi_system}
+timestamp=[2024-09-26 13:59:05], mode=WORKBENCH_START, duration=0:00:19.707, duration_ms=19707, data={}
+timestamp=[2024-09-26 13:59:07], mode=WORKBENCH_UI_INIT, duration=0:00:02.675, duration_ms=2675, data={editors_count=13, platform_editors_count=8, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rhsdfh,test_reciver,test_reciver_system,test_trans,test_trans_system,test_wifi,test_wifi_system}
+timestamp=[2024-09-26 15:03:48], mode=PLATFORM_CREATION, duration=0:00:11.989, duration_ms=11989, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-09-26 15:05:48], mode=PLATFORM_GENERATION, duration=0:01:21.192, duration_ms=81192, data={name=plat2}
+timestamp=[2024-09-26 15:06:47], mode=APP_CREATION, duration=0:00:16.364, duration_ms=16364, data={name=test, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=plat2, application_type=application}

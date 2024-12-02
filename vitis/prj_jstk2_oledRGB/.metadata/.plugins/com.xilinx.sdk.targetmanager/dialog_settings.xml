@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="jstk2_oledRGB-skip_rev_check"/>
+	<item value="" key="jstk2_oledRGB-bmmFile"/>
+	<item value="false" key="jstk2_oledRGB-partial_bit"/>
+	<item value="Local" key="jstk2_oledRGB-target"/>
+	<item value="jstk2_oledRGB" key="programfpga.sdxproject"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="jstk2_oledRGB-bitFile"/>
+	<item value="Auto Detect" key="jstk2_oledRGB-device"/>
+</section>

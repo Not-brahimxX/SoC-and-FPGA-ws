@@ -1,0 +1,7 @@
+/*prj_fsbl*/
+the_ROM_image:
+{
+  [bootloader]<prj_fsbl/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

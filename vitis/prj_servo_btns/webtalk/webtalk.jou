@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# 
+# Start of session at: Thu Sep 26 13:39:15 2024
+# Process ID: 9084
+# Current directory: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/webtalk/webtalk.log
+# Journal file: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

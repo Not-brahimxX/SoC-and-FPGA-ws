@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Sep  9 10:35:32 2024
+# Process ID: 2060
+# Current directory: C:/Users/PC-CLICK-PLUS/Desktop/Stage CRTI/vivado/project_servo/project_servo.runs/design_1_axi_gpio_0_0_synth_1
+# Command line: vivado.exe -log design_1_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_0.tcl
+# Log file: C:/Users/PC-CLICK-PLUS/Desktop/Stage CRTI/vivado/project_servo/project_servo.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0.vds
+# Journal file: C:/Users/PC-CLICK-PLUS/Desktop/Stage CRTI/vivado/project_servo/project_servo.runs/design_1_axi_gpio_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_gpio_0_0.tcl -notrace

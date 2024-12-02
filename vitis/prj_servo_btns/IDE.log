@@ -1,0 +1,438 @@
+14:52:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_servo_btns\temp_xsdb_launch_script.tcl
+14:52:24 INFO  : XSCT server has started successfully.
+14:52:25 INFO  : plnx-install-location is set to ''
+14:52:25 INFO  : Successfully done setting XSCT server connection channel  
+14:52:25 INFO  : Successfully done query RDI_DATADIR 
+14:52:25 INFO  : Successfully done setting workspace for the tool. 
+14:52:27 INFO  : Registering command handlers for Vitis TCF services
+14:54:01 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+14:54:01 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+15:16:31 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:17:25 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:18:25 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:18:49 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:19:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:19:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:19:29 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:19:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:19:37 INFO  : Jtag cable 'Digilent Zed 210248764391' is selected.
+15:19:37 INFO  : 'jtag frequency' command is executed.
+15:19:37 INFO  : Context for 'APU' is selected.
+15:19:37 INFO  : System reset is completed.
+15:19:40 INFO  : 'after 3000' command is executed.
+15:19:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:19:42 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:19:43 INFO  : Context for 'APU' is selected.
+15:19:43 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa'.
+15:19:43 INFO  : 'configparams force-mem-access 1' command is executed.
+15:19:43 INFO  : Context for 'APU' is selected.
+15:19:43 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl' is done.
+15:19:43 INFO  : 'ps7_init' command is executed.
+15:19:43 INFO  : 'ps7_post_config' command is executed.
+15:19:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:19:44 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:19:44 INFO  : 'configparams force-mem-access 0' command is executed.
+15:19:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:19:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:19:44 INFO  : 'con' command is executed.
+15:19:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:19:44 INFO  : Disconnected from the channel tcfchan#3.
+15:35:23 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:36:08 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:42:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:17 ERROR : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' is cancelled.
+15:42:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:42:27 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:42:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:35 INFO  : Jtag cable 'Digilent Zed 210248764391' is selected.
+15:42:35 INFO  : 'jtag frequency' command is executed.
+15:42:35 INFO  : Context for 'APU' is selected.
+15:42:35 INFO  : System reset is completed.
+15:42:38 INFO  : 'after 3000' command is executed.
+15:42:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:42:40 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:42:41 INFO  : Context for 'APU' is selected.
+15:42:41 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa'.
+15:42:41 INFO  : 'configparams force-mem-access 1' command is executed.
+15:42:41 INFO  : Context for 'APU' is selected.
+15:42:41 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl' is done.
+15:42:41 INFO  : 'ps7_init' command is executed.
+15:42:41 INFO  : 'ps7_post_config' command is executed.
+15:42:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:42:42 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:42:42 INFO  : 'configparams force-mem-access 0' command is executed.
+15:42:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:42:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:42:42 INFO  : 'con' command is executed.
+15:42:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:42:42 INFO  : Disconnected from the channel tcfchan#5.
+15:44:03 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:44:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:44:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:44:16 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:44:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:44:21 INFO  : Jtag cable 'Digilent Zed 210248764391' is selected.
+15:44:21 INFO  : 'jtag frequency' command is executed.
+15:44:21 INFO  : Context for 'APU' is selected.
+15:44:22 INFO  : System reset is completed.
+15:44:25 INFO  : 'after 3000' command is executed.
+15:44:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:44:27 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:44:27 INFO  : Context for 'APU' is selected.
+15:44:27 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa'.
+15:44:27 INFO  : 'configparams force-mem-access 1' command is executed.
+15:44:27 INFO  : Context for 'APU' is selected.
+15:44:27 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl' is done.
+15:44:28 INFO  : 'ps7_init' command is executed.
+15:44:28 INFO  : 'ps7_post_config' command is executed.
+15:44:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:44:28 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:44:28 INFO  : 'configparams force-mem-access 0' command is executed.
+15:44:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:44:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:44:28 INFO  : 'con' command is executed.
+15:44:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:44:28 INFO  : Disconnected from the channel tcfchan#6.
+15:46:05 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:46:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:46:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:46:16 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:46:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:46:21 INFO  : Jtag cable 'Digilent Zed 210248764391' is selected.
+15:46:21 INFO  : 'jtag frequency' command is executed.
+15:46:21 INFO  : Context for 'APU' is selected.
+15:46:21 INFO  : System reset is completed.
+15:46:24 INFO  : 'after 3000' command is executed.
+15:46:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:46:26 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:46:26 INFO  : Context for 'APU' is selected.
+15:46:26 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa'.
+15:46:26 INFO  : 'configparams force-mem-access 1' command is executed.
+15:46:26 INFO  : Context for 'APU' is selected.
+15:46:26 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl' is done.
+15:46:27 INFO  : 'ps7_init' command is executed.
+15:46:27 INFO  : 'ps7_post_config' command is executed.
+15:46:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:46:27 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:46:27 INFO  : 'configparams force-mem-access 0' command is executed.
+15:46:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:46:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:46:27 INFO  : 'con' command is executed.
+15:46:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:46:27 INFO  : Disconnected from the channel tcfchan#7.
+15:48:02 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:48:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:48:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:48:14 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:48:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:48:18 INFO  : Jtag cable 'Digilent Zed 210248764391' is selected.
+15:48:18 INFO  : 'jtag frequency' command is executed.
+15:48:18 INFO  : Context for 'APU' is selected.
+15:48:18 INFO  : System reset is completed.
+15:48:21 INFO  : 'after 3000' command is executed.
+15:48:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:48:24 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:48:24 INFO  : Context for 'APU' is selected.
+15:48:24 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa'.
+15:48:24 INFO  : 'configparams force-mem-access 1' command is executed.
+15:48:24 INFO  : Context for 'APU' is selected.
+15:48:24 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl' is done.
+15:48:24 INFO  : 'ps7_init' command is executed.
+15:48:24 INFO  : 'ps7_post_config' command is executed.
+15:48:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:48:25 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:48:25 INFO  : 'configparams force-mem-access 0' command is executed.
+15:48:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:48:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:48:25 INFO  : 'con' command is executed.
+15:48:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:48:25 INFO  : Disconnected from the channel tcfchan#8.
+15:49:46 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+15:49:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:49:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:50:01 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:50:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:13 INFO  : Jtag cable 'Digilent Zed 210248764391' is selected.
+15:50:13 INFO  : 'jtag frequency' command is executed.
+15:50:13 INFO  : Context for 'APU' is selected.
+15:50:13 INFO  : System reset is completed.
+15:50:16 INFO  : 'after 3000' command is executed.
+15:50:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+15:50:18 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+15:50:18 INFO  : Context for 'APU' is selected.
+15:50:18 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa'.
+15:50:18 INFO  : 'configparams force-mem-access 1' command is executed.
+15:50:18 INFO  : Context for 'APU' is selected.
+15:50:18 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl' is done.
+15:50:19 INFO  : 'ps7_init' command is executed.
+15:50:19 INFO  : 'ps7_post_config' command is executed.
+15:50:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:50:19 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:50:19 INFO  : 'configparams force-mem-access 0' command is executed.
+15:50:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:50:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:50:19 INFO  : 'con' command is executed.
+15:50:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:50:19 INFO  : Disconnected from the channel tcfchan#9.
+09:25:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_servo_btns\temp_xsdb_launch_script.tcl
+09:25:24 INFO  : Registering command handlers for Vitis TCF services
+09:25:25 INFO  : XSCT server has started successfully.
+09:25:25 INFO  : plnx-install-location is set to ''
+09:25:25 INFO  : Successfully done setting XSCT server connection channel  
+09:25:28 INFO  : Successfully done setting workspace for the tool. 
+09:25:28 INFO  : Successfully done query RDI_DATADIR 
+09:49:19 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa is already opened
+
+09:49:19 INFO  : Generated template bif file for servo_btns_system
+09:49:46 INFO  : Invoking Bootgen: bootgen -image servo_btns_system.bif -arch zynq -o C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns_system/_ide/bootimage/BOOT.bin
+09:49:49 INFO  : Bootgen command execution is done.
+09:56:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa is already opened
+
+09:56:31 INFO  : Generated template bif file for servo_btns
+09:56:54 INFO  : Invoking Bootgen: bootgen -image servo_btns.bif -arch zynq -o C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bootimage/BOOT.bin
+09:56:57 INFO  : Bootgen command execution is done.
+10:17:02 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+14:47:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_servo_btns\temp_xsdb_launch_script.tcl
+14:47:20 INFO  : XSCT server has started successfully.
+14:47:25 INFO  : Successfully done setting XSCT server connection channel  
+14:47:25 INFO  : plnx-install-location is set to ''
+14:47:25 INFO  : Successfully done query RDI_DATADIR 
+14:47:25 INFO  : Successfully done setting workspace for the tool. 
+14:47:26 INFO  : Registering command handlers for Vitis TCF services
+12:09:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_servo_btns\temp_xsdb_launch_script.tcl
+12:09:44 INFO  : XSCT server has started successfully.
+12:09:44 INFO  : Successfully done setting XSCT server connection channel  
+12:09:44 INFO  : plnx-install-location is set to ''
+12:09:44 INFO  : Successfully done setting workspace for the tool. 
+12:09:44 INFO  : Registering command handlers for Vitis TCF services
+12:09:53 INFO  : Successfully done query RDI_DATADIR 
+12:11:13 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+12:11:14 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+12:11:14 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+12:11:31 INFO  : Checking for BSP changes to sync application flags for project 'servo_btns'...
+12:12:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:12:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+12:12:03 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+12:12:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:12:11 INFO  : Jtag cable 'Digilent Zed 210248764391' is selected.
+12:12:11 INFO  : 'jtag frequency' command is executed.
+12:12:11 INFO  : Context for 'APU' is selected.
+12:12:11 INFO  : System reset is completed.
+12:12:14 INFO  : 'after 3000' command is executed.
+12:12:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+12:12:17 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+12:12:17 INFO  : Context for 'APU' is selected.
+12:12:17 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa'.
+12:12:17 INFO  : 'configparams force-mem-access 1' command is executed.
+12:12:17 INFO  : Context for 'APU' is selected.
+12:12:17 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl' is done.
+12:12:18 INFO  : 'ps7_init' command is executed.
+12:12:18 INFO  : 'ps7_post_config' command is executed.
+12:12:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:12:18 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:12:18 INFO  : 'configparams force-mem-access 0' command is executed.
+12:12:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:12:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:12:18 INFO  : 'con' command is executed.
+12:12:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:12:18 INFO  : Disconnected from the channel tcfchan#2.
+12:12:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:12:59 INFO  : Jtag cable 'Digilent Zed 210248764391' is selected.
+12:12:59 INFO  : 'jtag frequency' command is executed.
+12:12:59 INFO  : Context for 'APU' is selected.
+12:13:00 INFO  : System reset is completed.
+12:13:03 INFO  : 'after 3000' command is executed.
+12:13:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1' command is executed.
+12:13:05 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit"
+12:13:05 INFO  : Context for 'APU' is selected.
+12:13:11 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa'.
+12:13:11 INFO  : 'configparams force-mem-access 1' command is executed.
+12:13:11 INFO  : Context for 'APU' is selected.
+12:13:11 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl' is done.
+12:13:12 INFO  : 'ps7_init' command is executed.
+12:13:12 INFO  : 'ps7_post_config' command is executed.
+12:13:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:13:12 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:13:12 INFO  : 'configparams force-mem-access 0' command is executed.
+12:13:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764391" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:13:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:13:12 INFO  : 'con' command is executed.
+12:13:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:13:12 INFO  : Disconnected from the channel tcfchan#3.

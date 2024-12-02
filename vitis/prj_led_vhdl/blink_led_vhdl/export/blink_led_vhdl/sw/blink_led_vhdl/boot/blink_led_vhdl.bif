@@ -1,0 +1,7 @@
+/*blink_led_vhdl*/
+the_ROM_image:
+{
+  [bootloader]<blink_led_vhdl/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

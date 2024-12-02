@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vivado\project_exo_servo_btns\project_exo_servo_btns.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission refusée

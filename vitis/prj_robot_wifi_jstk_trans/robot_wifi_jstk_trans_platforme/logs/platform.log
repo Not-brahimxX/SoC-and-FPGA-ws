@@ -1,0 +1,1680 @@
+TRACE::2024-09-24.14:31:57::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:31:57::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:31:57::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:03::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:03::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:03::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:03::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-09-24.14:32:15::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWWriter::formatted JSON is {
+	"platformName":	"robot_wifi_jstk_trans_platforme",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"robot_wifi_jstk_trans_platforme",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-09-24.14:32:15::SCWWriter::formatted JSON is {
+	"platformName":	"robot_wifi_jstk_trans_platforme",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"robot_wifi_jstk_trans_platforme",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"robot_wifi_jstk_trans_platforme",
+	"systems":	[{
+			"systemName":	"robot_wifi_jstk_trans_platforme",
+			"systemDesc":	"robot_wifi_jstk_trans_platforme",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"robot_wifi_jstk_trans_platforme"
+		}]
+}
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:15::SCWDomain::checking for install qemu data   : 
+TRACE::2024-09-24.14:32:15::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2024-09-24.14:32:15::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:15::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-09-24.14:32:15::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::mss does not exists at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::Creating sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::Adding the swdes entry, created swdb C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::Writing mss at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-24.14:32:15::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-09-24.14:32:15::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:15::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-24.14:32:15::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:15::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-24.14:32:15::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:15::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-24.14:32:15::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWWriter::formatted JSON is {
+	"platformName":	"robot_wifi_jstk_trans_platforme",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"robot_wifi_jstk_trans_platforme",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"robot_wifi_jstk_trans_platforme",
+	"systems":	[{
+			"systemName":	"robot_wifi_jstk_trans_platforme",
+			"systemDesc":	"robot_wifi_jstk_trans_platforme",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"robot_wifi_jstk_trans_platforme",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:15::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:15::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-24.14:32:15::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:15::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-24.14:32:15::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2024-09-24.14:32:21::SCWPlatform::Started generating the artifacts platform robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.14:32:21::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-24.14:32:21::SCWPlatform::Started generating the artifacts for system configuration robot_wifi_jstk_trans_platforme
+LOG::2024-09-24.14:32:21::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-24.14:32:21::SCWSystem::Not a boot domain 
+LOG::2024-09-24.14:32:21::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-24.14:32:21::SCWDomain::Generating domain artifcats
+TRACE::2024-09-24.14:32:21::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-24.14:32:21::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/export/robot_wifi_jstk_trans_platforme/sw/robot_wifi_jstk_trans_platforme/qemu/
+TRACE::2024-09-24.14:32:21::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/export/robot_wifi_jstk_trans_platforme/sw/robot_wifi_jstk_trans_platforme/standalone_domain/qemu/
+TRACE::2024-09-24.14:32:21::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-24.14:32:21::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:21::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:21::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2024-09-24.14:32:21::SCWMssOS::Could not open the swdb for C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+KEYINFO::2024-09-24.14:32:21::SCWMssOS::Could not open the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2024-09-24.14:32:21::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-09-24.14:32:21::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::mss exists loading the mss file  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::Opened the sw design from mss  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::Adding the swdes entry C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-09-24.14:32:21::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-24.14:32:21::SCWMssOS::Opened the sw design.  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-24.14:32:21::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-24.14:32:21::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-24.14:32:21::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-09-24.14:32:21::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-09-24.14:32:21::SCWMssOS::Copying to export directory.
+TRACE::2024-09-24.14:32:21::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-09-24.14:32:21::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-09-24.14:32:21::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-09-24.14:32:21::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-09-24.14:32:21::SCWSystem::Completed Processing the sysconfig robot_wifi_jstk_trans_platforme
+LOG::2024-09-24.14:32:21::SCWPlatform::Completed generating the artifacts for system configuration robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.14:32:21::SCWPlatform::Started preparing the platform 
+TRACE::2024-09-24.14:32:21::SCWSystem::Writing the bif file for system config robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.14:32:21::SCWSystem::dir created 
+TRACE::2024-09-24.14:32:21::SCWSystem::Writing the bif 
+TRACE::2024-09-24.14:32:21::SCWPlatform::Started writing the spfm file 
+TRACE::2024-09-24.14:32:21::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-09-24.14:32:21::SCWPlatform::Completed generating the platform
+TRACE::2024-09-24.14:32:21::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:21::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:21::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:21::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:21::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:21::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:21::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:21::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:21::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:21::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:21::SCWWriter::formatted JSON is {
+	"platformName":	"robot_wifi_jstk_trans_platforme",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"robot_wifi_jstk_trans_platforme",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"robot_wifi_jstk_trans_platforme",
+	"systems":	[{
+			"systemName":	"robot_wifi_jstk_trans_platforme",
+			"systemDesc":	"robot_wifi_jstk_trans_platforme",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"robot_wifi_jstk_trans_platforme",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-09-24.14:32:21::SCWPlatform::updated the xpfm file.
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:22::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:22::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:22::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:22::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:22::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:22::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:22::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:22::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWWriter::formatted JSON is {
+	"platformName":	"robot_wifi_jstk_trans_platforme",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"robot_wifi_jstk_trans_platforme",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"robot_wifi_jstk_trans_platforme",
+	"systems":	[{
+			"systemName":	"robot_wifi_jstk_trans_platforme",
+			"systemDesc":	"robot_wifi_jstk_trans_platforme",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"robot_wifi_jstk_trans_platforme",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:22::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:22::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:22::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:22::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:22::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:22::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:22::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:22::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:22::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:22::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:23::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:23::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:23::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:23::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWWriter::formatted JSON is {
+	"platformName":	"robot_wifi_jstk_trans_platforme",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"robot_wifi_jstk_trans_platforme",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"robot_wifi_jstk_trans_platforme",
+	"systems":	[{
+			"systemName":	"robot_wifi_jstk_trans_platforme",
+			"systemDesc":	"robot_wifi_jstk_trans_platforme",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"robot_wifi_jstk_trans_platforme",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:23::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:23::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:23::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:23::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:23::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:23::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWWriter::formatted JSON is {
+	"platformName":	"robot_wifi_jstk_trans_platforme",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"robot_wifi_jstk_trans_platforme",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"robot_wifi_jstk_trans_platforme",
+	"systems":	[{
+			"systemName":	"robot_wifi_jstk_trans_platforme",
+			"systemDesc":	"robot_wifi_jstk_trans_platforme",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"robot_wifi_jstk_trans_platforme",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-24.14:32:23::SCWPlatform::Clearing the existing platform
+TRACE::2024-09-24.14:32:23::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-09-24.14:32:23::SCWMssOS::Removing the swdes entry for  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:23::SCWSystem::Clearing the domains completed.
+TRACE::2024-09-24.14:32:23::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Platform location is C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:23::SCWPlatform::Removing the HwDB with name C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:23::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:24::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:24::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:24::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:24::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:24::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-09-24.14:32:33::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWReader::Active system found as  robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.14:32:33::SCWReader::Handling sysconfig robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.14:32:33::SCWDomain::checking for install qemu data   : 
+TRACE::2024-09-24.14:32:33::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2024-09-24.14:32:33::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:33::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:33::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-09-24.14:32:33::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:33::SCWMssOS::mss exists loading the mss file  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:33::SCWMssOS::Opened the sw design from mss  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:33::SCWMssOS::Adding the swdes entry C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-09-24.14:32:33::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-24.14:32:33::SCWMssOS::Opened the sw design.  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:33::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-09-24.14:32:33::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:33::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:33::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:33::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:33::SCWReader::No isolation master present  
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:33::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:32:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:33::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:33::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:33::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:34::SCWMssOS::In reload Mss file.
+TRACE::2024-09-24.14:32:34::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:34::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:34::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:34::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:34::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:34::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:34::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:32:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:34::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2024-09-24.14:32:34::SCWMssOS::Could not open the swdb for system
+KEYINFO::2024-09-24.14:32:34::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2024-09-24.14:32:34::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-09-24.14:32:34::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:34::SCWMssOS::mss exists loading the mss file  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:34::SCWMssOS::Opened the sw design from mss  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:34::SCWMssOS::Adding the swdes entry C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-09-24.14:32:34::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-24.14:32:34::SCWMssOS::Opened the sw design.  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:34::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:34::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:34::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:34::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:34::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:34::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:34::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:32:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:34::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:32:34::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:34::SCWMssOS::Removing the swdes entry for  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+LOG::2024-09-24.14:32:50::SCWPlatform::Started generating the artifacts platform robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.14:32:50::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-24.14:32:50::SCWPlatform::Started generating the artifacts for system configuration robot_wifi_jstk_trans_platforme
+LOG::2024-09-24.14:32:50::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-24.14:32:50::SCWSystem::Not a boot domain 
+LOG::2024-09-24.14:32:50::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-24.14:32:50::SCWDomain::Generating domain artifcats
+TRACE::2024-09-24.14:32:50::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-24.14:32:50::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/export/robot_wifi_jstk_trans_platforme/sw/robot_wifi_jstk_trans_platforme/qemu/
+TRACE::2024-09-24.14:32:50::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/export/robot_wifi_jstk_trans_platforme/sw/robot_wifi_jstk_trans_platforme/standalone_domain/qemu/
+TRACE::2024-09-24.14:32:50::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-24.14:32:50::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:50::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:50::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:50::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:32:50::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:32:50::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:32:50::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:32:50::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:32:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:32:50::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:50::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-09-24.14:32:50::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:50::SCWMssOS::mss exists loading the mss file  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:50::SCWMssOS::Opened the sw design from mss  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:50::SCWMssOS::Adding the swdes entry C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-09-24.14:32:50::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-24.14:32:51::SCWMssOS::Opened the sw design.  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:51::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-24.14:32:51::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:32:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-24.14:32:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-24.14:32:51::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-09-24.14:32:51::SCWMssOS::doing bsp build ... 
+TRACE::2024-09-24.14:32:51::SCWMssOS::System Command Ran  C: & cd  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2024-09-24.14:32:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-24.14:32:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2024-09-24.14:32:51::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2024-09-24.14:32:51::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-24.14:32:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-24.14:32:51::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-24.14:32:51::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-24.14:32:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:32:51::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:32:51::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-24.14:32:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:32:52::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:32:52::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-24.14:32:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:32:52::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:32:52::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-24.14:32:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-09-24.14:32:52::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-09-24.14:32:52::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-24.14:32:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:32:52::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:32:52::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:53::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-24.14:32:53::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-24.14:32:53::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-24.14:32:53::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:53::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-24.14:32:53::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-24.14:32:53::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-24.14:32:53::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2024-09-24.14:32:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:32:56::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:32:56::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2024-09-24.14:32:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:32:56::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:32:56::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2024-09-24.14:32:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-24.14:32:57::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-24.14:32:57::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2024-09-24.14:32:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:32:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:32:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:58::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2024-09-24.14:32:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-24.14:32:58::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-24.14:32:58::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:32:59::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-09-24.14:33:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-09-24.14:33:00::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-09-24.14:33:00::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:02::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2024-09-24.14:33:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:33:03::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:33:03::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:04::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2024-09-24.14:33:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:33:05::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:33:05::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:06::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2024-09-24.14:33:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:33:07::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:33:07::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:07::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-24.14:33:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-24.14:33:07::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-24.14:33:07::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:08::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2024-09-24.14:33:08::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-24.14:33:08::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-24.14:33:08::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-24.14:33:08::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:08::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2024-09-24.14:33:09::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-24.14:33:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-24.14:33:09::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-24.14:33:09::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:09::SCWMssOS::"Compiling ddrps"
+
+TRACE::2024-09-24.14:33:09::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-24.14:33:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-24.14:33:09::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-24.14:33:09::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:09::SCWMssOS::"Compiling devcfg"
+
+TRACE::2024-09-24.14:33:11::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-24.14:33:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-24.14:33:11::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-24.14:33:11::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:12::SCWMssOS::"Compiling dmaps"
+
+TRACE::2024-09-24.14:33:14::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-24.14:33:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-24.14:33:14::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-24.14:33:14::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:14::SCWMssOS::"Compiling emacps"
+
+TRACE::2024-09-24.14:33:17::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-24.14:33:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-24.14:33:17::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-24.14:33:17::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:17::SCWMssOS::"Compiling gpiops"
+
+TRACE::2024-09-24.14:33:20::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-24.14:33:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:33:20::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:33:20::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:20::SCWMssOS::"Compiling PmodJSTK2"
+
+TRACE::2024-09-24.14:33:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-24.14:33:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:33:22::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:33:22::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:33:23::SCWMssOS::"Compiling PmodWIFI..."
+
+ERROR::2024-09-24.14:33:35::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2024-09-24.14:33:35::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2024-09-24.14:41:00::SCWPlatform::Started generating the artifacts platform robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.14:41:00::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-24.14:41:00::SCWPlatform::Started generating the artifacts for system configuration robot_wifi_jstk_trans_platforme
+LOG::2024-09-24.14:41:00::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-24.14:41:00::SCWSystem::Not a boot domain 
+LOG::2024-09-24.14:41:00::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-24.14:41:00::SCWDomain::Generating domain artifcats
+TRACE::2024-09-24.14:41:00::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-24.14:41:00::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/export/robot_wifi_jstk_trans_platforme/sw/robot_wifi_jstk_trans_platforme/standalone_domain/qemu/
+TRACE::2024-09-24.14:41:00::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-24.14:41:00::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:41:00::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:41:00::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:41:00::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:41:00::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:41:00::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:41:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:41:00::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:41:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:41:00::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:41:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:41:00::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:41:00::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-24.14:41:00::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:41:00::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-24.14:41:00::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-24.14:41:00::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-09-24.14:41:00::SCWMssOS::doing bsp build ... 
+TRACE::2024-09-24.14:41:00::SCWMssOS::System Command Ran  C: & cd  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2024-09-24.14:41:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-24.14:41:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2024-09-24.14:41:00::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2024-09-24.14:41:00::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-24.14:41:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-24.14:41:00::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-24.14:41:00::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-24.14:41:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:41:00::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:41:00::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-24.14:41:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:41:00::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:41:00::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:41:01::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:41:01::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-09-24.14:41:01::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-09-24.14:41:01::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:41:01::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:41:01::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-24.14:41:01::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-24.14:41:01::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-24.14:41:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-24.14:41:01::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-24.14:41:01::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:41:03::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:41:03::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:41:03::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:41:03::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-24.14:41:03::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-24.14:41:03::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:41:03::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:41:03::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-24.14:41:03::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-24.14:41:03::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-09-24.14:41:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-09-24.14:41:03::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-09-24.14:41:03::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:04::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2024-09-24.14:41:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:41:04::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:41:04::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:04::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2024-09-24.14:41:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:41:04::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:41:04::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:41:05::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:41:05::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-24.14:41:05::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-24.14:41:05::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-24.14:41:05::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-24.14:41:05::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-24.14:41:05::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-24.14:41:05::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:05::SCWMssOS::"Compiling ddrps"
+
+TRACE::2024-09-24.14:41:06::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-24.14:41:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-24.14:41:06::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-24.14:41:06::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:06::SCWMssOS::"Compiling devcfg"
+
+TRACE::2024-09-24.14:41:07::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-24.14:41:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-24.14:41:07::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-24.14:41:07::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:08::SCWMssOS::"Compiling dmaps"
+
+TRACE::2024-09-24.14:41:09::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-24.14:41:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-24.14:41:09::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-24.14:41:09::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:09::SCWMssOS::"Compiling emacps"
+
+TRACE::2024-09-24.14:41:12::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-24.14:41:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-24.14:41:12::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-24.14:41:12::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:12::SCWMssOS::"Compiling gpiops"
+
+TRACE::2024-09-24.14:41:15::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-24.14:41:15::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:41:15::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:41:15::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:15::SCWMssOS::"Compiling PmodJSTK2"
+
+TRACE::2024-09-24.14:41:17::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-24.14:41:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:41:17::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:41:17::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:41:17::SCWMssOS::"Compiling PmodWIFI..."
+
+ERROR::2024-09-24.14:41:29::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2024-09-24.14:41:29::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2024-09-24.14:44:45::SCWPlatform::Started generating the artifacts platform robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.14:44:45::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-24.14:44:45::SCWPlatform::Started generating the artifacts for system configuration robot_wifi_jstk_trans_platforme
+LOG::2024-09-24.14:44:45::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-24.14:44:45::SCWSystem::Not a boot domain 
+LOG::2024-09-24.14:44:45::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-24.14:44:45::SCWDomain::Generating domain artifcats
+TRACE::2024-09-24.14:44:45::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-24.14:44:45::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/export/robot_wifi_jstk_trans_platforme/sw/robot_wifi_jstk_trans_platforme/standalone_domain/qemu/
+TRACE::2024-09-24.14:44:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-24.14:44:45::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:44:45::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:44:45::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:44:45::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.14:44:45::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.14:44:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.14:44:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.14:44:45::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.14:44:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.14:44:45::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:44:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.14:44:45::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:44:45::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-24.14:44:45::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.14:44:45::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-24.14:44:45::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-24.14:44:45::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-09-24.14:44:45::SCWMssOS::doing bsp build ... 
+TRACE::2024-09-24.14:44:45::SCWMssOS::System Command Ran  C: & cd  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2024-09-24.14:44:45::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-24.14:44:45::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2024-09-24.14:44:45::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2024-09-24.14:44:45::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-24.14:44:46::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-24.14:44:46::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:44:46::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:44:46::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:44:46::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:44:46::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:44:46::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:44:46::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-09-24.14:44:46::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-09-24.14:44:46::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-24.14:44:46::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:44:46::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:44:46::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:47::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-24.14:44:47::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-24.14:44:47::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-24.14:44:47::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:47::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-24.14:44:47::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-24.14:44:47::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-24.14:44:47::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:48::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2024-09-24.14:44:48::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:44:48::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:44:48::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:44:49::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:44:49::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-24.14:44:49::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-24.14:44:49::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:44:49::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:44:49::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-24.14:44:49::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-24.14:44:49::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-09-24.14:44:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-09-24.14:44:49::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-09-24.14:44:49::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2024-09-24.14:44:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:44:50::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:44:50::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2024-09-24.14:44:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:44:50::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:44:50::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2024-09-24.14:44:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:44:50::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:44:50::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:50::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-24.14:44:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-24.14:44:50::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-24.14:44:50::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-24.14:44:51::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-24.14:44:51::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-24.14:44:51::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-24.14:44:51::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::"Compiling ddrps"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-24.14:44:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-24.14:44:51::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-24.14:44:51::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:52::SCWMssOS::"Compiling devcfg"
+
+TRACE::2024-09-24.14:44:54::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-24.14:44:54::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-24.14:44:54::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-24.14:44:54::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:54::SCWMssOS::"Compiling dmaps"
+
+TRACE::2024-09-24.14:44:56::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-24.14:44:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-24.14:44:56::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-24.14:44:56::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:56::SCWMssOS::"Compiling emacps"
+
+TRACE::2024-09-24.14:44:59::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-24.14:44:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-24.14:44:59::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-24.14:44:59::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:44:59::SCWMssOS::"Compiling gpiops"
+
+TRACE::2024-09-24.14:45:01::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-24.14:45:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.14:45:01::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.14:45:01::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:45:01::SCWMssOS::"Compiling PmodJSTK2"
+
+TRACE::2024-09-24.14:45:04::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-24.14:45:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.14:45:04::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.14:45:04::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.14:45:04::SCWMssOS::"Compiling PmodWIFI..."
+
+ERROR::2024-09-24.14:45:18::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2024-09-24.14:45:18::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2024-09-24.15:13:58::SCWPlatform::Started generating the artifacts platform robot_wifi_jstk_trans_platforme
+TRACE::2024-09-24.15:13:58::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-24.15:13:58::SCWPlatform::Started generating the artifacts for system configuration robot_wifi_jstk_trans_platforme
+LOG::2024-09-24.15:13:58::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-24.15:13:58::SCWSystem::Not a boot domain 
+LOG::2024-09-24.15:13:58::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-24.15:13:58::SCWDomain::Generating domain artifcats
+TRACE::2024-09-24.15:13:58::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-24.15:13:58::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/export/robot_wifi_jstk_trans_platforme/sw/robot_wifi_jstk_trans_platforme/standalone_domain/qemu/
+TRACE::2024-09-24.15:13:58::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-24.15:13:58::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.15:13:58::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.15:13:58::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.15:13:58::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.15:13:58::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.15:13:58::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.15:13:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-09-24.15:13:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-09-24.15:13:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-24.15:13:58::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.15:13:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-24.15:13:58::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.15:13:58::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-24.15:13:58::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.15:13:58::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-24.15:13:58::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-24.15:13:58::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-09-24.15:13:58::SCWMssOS::doing bsp build ... 
+TRACE::2024-09-24.15:13:58::SCWMssOS::System Command Ran  C: & cd  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2024-09-24.15:13:58::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-24.15:13:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2024-09-24.15:13:58::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2024-09-24.15:13:58::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:13:59::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-24.15:13:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-24.15:13:59::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-24.15:13:59::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-24.15:14:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.15:14:00::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.15:14:00::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-24.15:14:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.15:14:00::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.15:14:00::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-24.15:14:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.15:14:00::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.15:14:00::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-24.15:14:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-09-24.15:14:00::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-09-24.15:14:00::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-24.15:14:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.15:14:01::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.15:14:01::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-24.15:14:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-24.15:14:01::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-24.15:14:01::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-24.15:14:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-24.15:14:01::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-24.15:14:01::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:04::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2024-09-24.15:14:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.15:14:04::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.15:14:04::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:04::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2024-09-24.15:14:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.15:14:04::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.15:14:04::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:05::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2024-09-24.15:14:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-24.15:14:05::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-24.15:14:05::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:05::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2024-09-24.15:14:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.15:14:05::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.15:14:05::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:06::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2024-09-24.15:14:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-24.15:14:06::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-24.15:14:06::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:06::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-09-24.15:14:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-09-24.15:14:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-09-24.15:14:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:07::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2024-09-24.15:14:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.15:14:07::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.15:14:07::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:07::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2024-09-24.15:14:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.15:14:07::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.15:14:07::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:07::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2024-09-24.15:14:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.15:14:07::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.15:14:07::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:08::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-24.15:14:08::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-24.15:14:08::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-24.15:14:08::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:08::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2024-09-24.15:14:09::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-24.15:14:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-24.15:14:09::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-24.15:14:09::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:09::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2024-09-24.15:14:09::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-24.15:14:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-24.15:14:09::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-24.15:14:09::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:09::SCWMssOS::"Compiling ddrps"
+
+TRACE::2024-09-24.15:14:10::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-24.15:14:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-24.15:14:10::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-24.15:14:10::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:10::SCWMssOS::"Compiling devcfg"
+
+TRACE::2024-09-24.15:14:12::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-24.15:14:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-24.15:14:12::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-24.15:14:12::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:13::SCWMssOS::"Compiling dmaps"
+
+TRACE::2024-09-24.15:14:15::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-24.15:14:15::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-24.15:14:15::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-24.15:14:15::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:15::SCWMssOS::"Compiling emacps"
+
+TRACE::2024-09-24.15:14:19::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-24.15:14:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-24.15:14:19::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-24.15:14:19::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:19::SCWMssOS::"Compiling gpiops"
+
+TRACE::2024-09-24.15:14:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-24.15:14:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-24.15:14:22::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-24.15:14:22::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:23::SCWMssOS::"Compiling PmodJSTK2"
+
+TRACE::2024-09-24.15:14:26::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-24.15:14:26::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-24.15:14:26::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-24.15:14:26::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-24.15:14:26::SCWMssOS::"Compiling PmodWIFI..."
+
+ERROR::2024-09-24.15:14:40::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2024-09-24.15:14:40::SCWSystem::Error in Processing the domain standalone_domain
+TRACE::2024-09-24.15:15:50::SCWPlatform::Clearing the existing platform
+TRACE::2024-09-24.15:15:50::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-09-24.15:15:50::SCWMssOS::Removing the swdes entry for  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-24.15:15:50::SCWSystem::Clearing the domains completed.
+TRACE::2024-09-24.15:15:50::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-09-24.15:15:50::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.15:15:50::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.15:15:50::SCWPlatform:: Platform location is C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw
+TRACE::2024-09-24.15:15:50::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa
+TRACE::2024-09-24.15:15:50::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-24.15:15:50::SCWPlatform::Removing the HwDB with name C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/hw/design_1_wrapper.xsa

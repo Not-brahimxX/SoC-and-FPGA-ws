@@ -1,0 +1,487 @@
+2024-09-24T15:13:55.176731800255-15:13:55 **** Build of project robot_wifi_jstk_trans_platforme ****
+000-buildplatform.bat 63502 robot_wifi_jstk_trans_platforme  
+000-XSDB Server Channel: tcfchan#5
+000-Building the BSP Library for domain  - standalone_domain on processor ps7_cortexa9_0
+000-"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+000--eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+000-ard -nostartfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+000-bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+000- -nostartfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+000-"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+000-rtfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+000- "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+000-artfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+000-"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+000-rtfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+000-" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+000-tartfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+000- "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+000-artfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+000-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+000-ostartfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+000-s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+000-startfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+000- "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+000-artfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+000- "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+000-artfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+000-s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+000-startfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+000- "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+000-artfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+000-ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+000-tfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+000--as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+000-nostartfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+000- "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+000-artfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+000-"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+000-rtfiles -g -Wall -Wextra"
+000-
+000-"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+000- "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+000-artfiles -g -Wall -Wextra"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+000-bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+000- -nostartfiles -g -Wall -Wextra"
+000-
+000-"Compiling coresightps_dcc"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+000-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+000-ostartfiles -g -Wall -Wextra"
+000-
+000-"Compiling cpu_cortexa9"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+000-CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+000-iles -g -Wall -Wextra"
+000-
+000-"Compiling ddrps"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+000-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+000-files -g -Wall -Wextra"
+000-
+000-"Compiling devcfg"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+000-CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+000-iles -g -Wall -Wextra"
+000-
+000-"Compiling dmaps"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+000-ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+000-tfiles -g -Wall -Wextra"
+000-
+000-"Compiling emacps"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+000-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+000-files -g -Wall -Wextra"
+000-
+000-"Compiling gpiops"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+000- "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+000-artfiles -g -Wall -Wextra"
+000-
+000-"Compiling PmodJSTK2"
+000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+000-"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+000-rtfiles -g -Wall -Wextra"
+000-
+000-"Compiling PmodWIFI..."
+000-
+000-xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+000/robot_wifi_jstk_trans_platforme89-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xtmrctr_sinit.c:89:24: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+000-                        ^
+000-In file included from ./DEIPcK/utility/System.h:54,
+000-                 from ./DEIPcK/utility/deIP.h:59,
+000-                 from ../../../include/DEIPcK.h:64,
+000-                 from DEIPcK/DEIPcK.cpp:54:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-./DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/DEIPcK.h:64,
+000-                 from DEIPcK/TCPServer.cpp:51:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/DEIPcK.h:64,
+000-                 from DEIPcK/TCPSocket.cpp:51:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/DEIPcK.h:64,
+000-                 from DEIPcK/UDPServer.cpp:51:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/DEIPcK.h:64,
+000-                 from DEIPcK/UDPSocket.cpp:51:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/DHCP.c:52:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/DNS.c:53:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/HeapMgr.c:51:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/ICMP.c:57:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/InternetLayer.c:53:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/IPStack.c:54:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/LinkLayer.c:53:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/SNTPv4.c:53:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from ./DEIPcK/utility/System.h:54,
+000-                 from ./DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/fpga/System.c:53,
+000-                 from DEIPcK/utility/System.c:54:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-./DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/TCP.c:51:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/TCPRFC793.c:51:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/TCPStateMachine.c:51:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from DEIPcK/utility/System.h:54,
+000-                 from DEIPcK/utility/deIP.h:59,
+000-                 from DEIPcK/utility/UDP.c:52:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from ./DEIPcK/utility/System.h:54,
+000-                 from ./DEIPcK/utility/deIP.h:59,
+000-                 from ../../../include/DEIPcK.h:64,
+000-                 from DEWFck/DEWFcK.cpp:56:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-./DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/../DEIPcK/utility/deIP.h:59,
+000-                 from MRF24G/MRF24GAdaptor.h:61,
+000-                 from MRF24G/MRF24GAdaptor.c:52:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/DEMRF24G.cpp:54,
+000-                 from MRF24G/DEMRF24G.cpp:55:
+000/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/include/DEIPcK/utility/fpga/System.h64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/./ud_inc/shared/wf_universal_driver.h:53,
+000-                 from MRF24G/utility/wf_connection_profile.c:46:
+000/robot_wifi_jstk_trans_platforme43-1-1"LITTLE_ENDIAN" redefined1-MRF24G/utility/./ud_inc/shared/../../wf_customize.h:43: warning: "LITTLE_ENDIAN" redefined
+000- #define LITTLE_ENDIAN 1234      // or #define BIG_ENDIAN 4321
+000- 
+000-In file included from c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\sys\types.h:67,
+000-                 from c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:61,
+000-                 from MRF24G/utility/wf_connection_profile.c:45:
+000/robot_wifi_jstk_trans_platforme17-1-1this is the location of the previous definition0-c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\machine\endian.h:17: note: this is the location of the previous definition
+000- #define LITTLE_ENDIAN _LITTLE_ENDIAN
+000- 
+000-In file included from MRF24G/utility/./ud_inc/internal/wf_global_includes.h:45,
+000-                 from MRF24G/utility/wf_connection_profile.c:47:
+000/robot_wifi_jstk_trans_platforme71-1-1#warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" [-Wcpp]1-MRF24G/utility/./ud_inc/internal/wf_endian.h:71:6: warning: #warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" [-Wcpp]
+000-     #warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" // NOTE(andreW): Currently the compiler will always trip on this preprocessor, and as an #error will fail the build step. This solution allows compilation without removing the message.
+000-      ^~~~~~~
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/wf_eint_stub.c:47,
+000-                 from MRF24G/utility/wf_eint_stub.c:45:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/./ud_inc/shared/wf_universal_driver.h:53,
+000-                 from MRF24G/utility/wf_event_queue.c:48:
+000/robot_wifi_jstk_trans_platforme43-1-1"LITTLE_ENDIAN" redefined1-MRF24G/utility/./ud_inc/shared/../../wf_customize.h:43: warning: "LITTLE_ENDIAN" redefined
+000- #define LITTLE_ENDIAN 1234      // or #define BIG_ENDIAN 4321
+000- 
+000-In file included from c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\sys\types.h:67,
+000-                 from c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:61,
+000-                 from MRF24G/utility/wf_event_queue.c:45:
+000/robot_wifi_jstk_trans_platforme17-1-1this is the location of the previous definition0-c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\machine\endian.h:17: note: this is the location of the previous definition
+000- #define LITTLE_ENDIAN _LITTLE_ENDIAN
+000- 
+000-In file included from MRF24G/utility/./ud_inc/internal/wf_global_includes.h:45,
+000-                 from MRF24G/utility/wf_event_queue.c:49:
+000/robot_wifi_jstk_trans_platforme71-1-1#warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" [-Wcpp]1-MRF24G/utility/./ud_inc/internal/wf_endian.h:71:6: warning: #warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" [-Wcpp]
+000-     #warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" // NOTE(andreW): Currently the compiler will always trip on this preprocessor, and as an #error will fail the build step. This solution allows compilation without removing the message.
+000-      ^~~~~~~
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+000-                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+000-                 from MRF24G/utility/fpga/wf_event_stub.c:33,
+000-                 from MRF24G/utility/wf_event_stub.c:34:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/wf_gpio_stub.c:45,
+000-                 from MRF24G/utility/wf_gpio_stub.c:47:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/wf_spi_stub.c:47,
+000-                 from MRF24G/utility/wf_spi_stub.c:47:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/wf_timer_stub.c:46,
+000-                 from MRF24G/utility/wf_timer_stub.c:46:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/./ud_inc/shared/wf_universal_driver.h:53,
+000-                 from MRF24G/utility/wf_ud_state.c:48:
+000/robot_wifi_jstk_trans_platforme43-1-1"LITTLE_ENDIAN" redefined1-MRF24G/utility/./ud_inc/shared/../../wf_customize.h:43: warning: "LITTLE_ENDIAN" redefined
+000- #define LITTLE_ENDIAN 1234      // or #define BIG_ENDIAN 4321
+000- 
+000-In file included from c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\sys\types.h:67,
+000-                 from c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:61,
+000-                 from MRF24G/utility/wf_ud_state.c:45:
+000/robot_wifi_jstk_trans_platforme17-1-1this is the location of the previous definition0-c:\xilinx\vitis\2019.2\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\machine\endian.h:17: note: this is the location of the previous definition
+000- #define LITTLE_ENDIAN _LITTLE_ENDIAN
+000- 
+000-In file included from MRF24G/utility/./ud_inc/internal/wf_global_includes.h:45,
+000-                 from MRF24G/utility/wf_ud_state.c:49:
+000/robot_wifi_jstk_trans_platforme71-1-1#warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" [-Wcpp]1-MRF24G/utility/./ud_inc/internal/wf_endian.h:71:6: warning: #warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" [-Wcpp]
+000-     #warning "Must define either BIG_ENDIAN or LITTLE_ENDIAN" // NOTE(andreW): Currently the compiler will always trip on this preprocessor, and as an #error will fail the build step. This solution allows compilation without removing the message.
+000-      ^~~~~~~
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/wf_eint_stub.c:47:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/../../../DEIPcK/utility/deIP.h:59,
+000-                 from MRF24G/utility/fpga/../../MRF24GAdaptor.h:61,
+000-                 from MRF24G/utility/fpga/wf_event_stub.c:33:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/wf_gpio_stub.c:45:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/wf_spi_stub.c:47:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from MRF24G/utility/fpga/../../../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/wf_timer_stub.c:46:
+000/robot_wifi_jstk_trans_platforme64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-MRF24G/utility/fpga/../../../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
+000-                 from MRF24G/utility/fpga/DEMRF24G.cpp:54:
+000/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/include/DEIPcK/utility/fpga/System.h64-1-1fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory2-../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64:10: fatal error: ../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h: No such file or directory
+000- #include "../../../MRF24G/utility/ud_inc/internal/wf_global_includes.h"
+000-          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-compilation terminated.
+000/robot_wifi_jstk_trans_platforme0-1-1make[1]: *** [Makefile:18: libs] Error 12-make[1]: *** [Makefile:18: libs] Error 1
+000/robot_wifi_jstk_trans_platforme0-1-1make: *** [Makefile:30: ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src/make.libs] Error 22-make: *** [Makefile:30: ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src/make.libs] Error 2
+000-Failed to build  the bsp sources for domain - standalone_domain
+000-Failed to generate the platform.
+000-Reason: Failed to build  the bsp sources for domain - standalone_domain
+000-    invoked from within
+000-"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active robot_wifi_jstk_trans_platforme; platform generate }}}"
+000-    (procedure "::tcf::send_command" line 4)
+000-    invoked from within
+000-"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+000-    invoked from within
+000-"if { $iswindows == 1 } {    
+000-
+000-    set XSDB_PORT [lindex $argv 0]
+000-    set PLATFORM_NAME [lindex $argv 1]
+000-    set arglen [llength $argv]
+000-    set lastind..."
+000-    (file "C:/Xilinx/Vitis/2019.2\scripts\vitis\util\buildplatform.tcl" line 11)
+00255-
+15:14:40 Build Finished (took 45s.514ms)
+

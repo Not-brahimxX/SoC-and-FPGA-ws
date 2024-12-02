@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# 
+# Start of session at: Sun Sep 22 16:06:24 2024
+# Process ID: 9680
+# Current directory: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/webtalk/webtalk.log
+# Journal file: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

@@ -1,0 +1,106 @@
+14:32:19 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_jstk2_oledRGB\temp_xsdb_launch_script.tcl
+14:32:25 INFO  : XSCT server has started successfully.
+14:32:25 INFO  : plnx-install-location is set to ''
+14:32:25 INFO  : Successfully done setting XSCT server connection channel  
+14:32:25 INFO  : Successfully done setting workspace for the tool. 
+14:32:25 INFO  : Successfully done query RDI_DATADIR 
+14:32:27 INFO  : Registering command handlers for Vitis TCF services
+14:33:52 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB_platforme/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+14:33:52 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+14:56:43 INFO  : Checking for BSP changes to sync application flags for project 'jstk2_oledRGB'...
+14:59:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:59:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:59:11 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/bitstream/design_1_wrapper.bit"
+14:59:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:59:18 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:59:18 INFO  : 'jtag frequency' command is executed.
+14:59:18 INFO  : Context for 'APU' is selected.
+14:59:18 INFO  : System reset is completed.
+14:59:21 INFO  : 'after 3000' command is executed.
+14:59:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:59:23 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/bitstream/design_1_wrapper.bit"
+14:59:24 INFO  : Context for 'APU' is selected.
+14:59:24 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB_platforme/export/jstk2_oledRGB_platforme/hw/design_1_wrapper.xsa'.
+14:59:24 INFO  : 'configparams force-mem-access 1' command is executed.
+14:59:24 INFO  : Context for 'APU' is selected.
+14:59:24 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/psinit/ps7_init.tcl' is done.
+14:59:24 INFO  : 'ps7_init' command is executed.
+14:59:24 INFO  : 'ps7_post_config' command is executed.
+14:59:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:59:25 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/Debug/jstk2_oledRGB.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:59:25 INFO  : 'configparams force-mem-access 0' command is executed.
+14:59:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB_platforme/export/jstk2_oledRGB_platforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/Debug/jstk2_oledRGB.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:59:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:59:25 INFO  : 'con' command is executed.
+14:59:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:59:25 INFO  : Disconnected from the channel tcfchan#2.
+15:50:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:50:29 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/bitstream/design_1_wrapper.bit"
+15:50:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:45 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:50:45 INFO  : 'jtag frequency' command is executed.
+15:50:45 INFO  : Context for 'APU' is selected.
+15:50:45 INFO  : System reset is completed.
+15:50:48 INFO  : 'after 3000' command is executed.
+15:50:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:50:51 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/bitstream/design_1_wrapper.bit"
+15:50:51 INFO  : Context for 'APU' is selected.
+15:50:51 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB_platforme/export/jstk2_oledRGB_platforme/hw/design_1_wrapper.xsa'.
+15:50:51 INFO  : 'configparams force-mem-access 1' command is executed.
+15:50:51 INFO  : Context for 'APU' is selected.
+15:50:51 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/psinit/ps7_init.tcl' is done.
+15:50:52 INFO  : 'ps7_init' command is executed.
+15:50:52 INFO  : 'ps7_post_config' command is executed.
+15:50:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:50:52 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/Debug/jstk2_oledRGB.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:50:52 INFO  : 'configparams force-mem-access 0' command is executed.
+15:50:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB_platforme/export/jstk2_oledRGB_platforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_oledRGB/jstk2_oledRGB/Debug/jstk2_oledRGB.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:50:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:50:52 INFO  : 'con' command is executed.
+15:50:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:50:52 INFO  : Disconnected from the channel tcfchan#3.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="wifi-TCPechoClient-target"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="wifi_test_scan-bitFile"/>
+	<item value="Local" key="wifi_test_scan-target"/>
+	<item value="Auto Detect" key="wifi_test2-device"/>
+	<item value="false" key="wifi_test_scan-partial_bit"/>
+	<item value="wifi-TCPechoClient" key="programfpga.sdxproject"/>
+	<item value="Auto Detect" key="wifi_test_scan-device"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="wifi-TCPechoClient-bitFile"/>
+	<item value="Local" key="wifi_test2-target"/>
+	<item value="" key="wifi_test2-bmmFile"/>
+	<item value="false" key="wifi-TCPechoClient-partial_bit"/>
+	<item value="false" key="wifi_test2-skip_rev_check"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="wifi_test2-bitFile"/>
+	<item value="false" key="wifi_test_scan-skip_rev_check"/>
+	<item value="" key="wifi-TCPechoClient-bmmFile"/>
+	<item value="false" key="wifi-TCPechoClient-skip_rev_check"/>
+	<item value="Auto Detect" key="wifi-TCPechoClient-device"/>
+	<item value="false" key="wifi_test2-partial_bit"/>
+	<item value="" key="wifi_test_scan-bmmFile"/>
+</section>

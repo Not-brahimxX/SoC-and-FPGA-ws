@@ -1,0 +1,10 @@
+2024-09-09T15:36:10.729481800255-15:36:10 **** Incremental Build of configuration Debug for project servo_btns_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 49511 C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/prj_servo_btns.xpfm standalone_domain C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/prj_servo_btns/export/prj_servo_btns/prj_servo_btns.xpfm --sys_config prj_servo_btns --bif C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns_system/Debug/system.bif --bitstream C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/Debug/servo_btns.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns/_ide/bitstream/design_1_wrapper.bit
+000-Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_servo_btns/servo_btns_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+15:36:21 Build Finished (took 11s.41ms)
+

@@ -1,0 +1,1058 @@
+14:04:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_motor_pwm\temp_xsdb_launch_script.tcl
+14:04:32 INFO  : XSCT server has started successfully.
+14:04:36 INFO  : Registering command handlers for Vitis TCF services
+14:04:36 INFO  : plnx-install-location is set to ''
+14:04:36 INFO  : Successfully done query RDI_DATADIR 
+14:04:36 INFO  : Successfully done setting XSCT server connection channel  
+14:04:36 INFO  : Successfully done setting workspace for the tool. 
+14:05:53 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+14:05:53 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+14:20:00 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:24:43 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:38:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:38:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:38:14 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:39:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:39:39 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:39:39 INFO  : 'jtag frequency' command is executed.
+14:39:39 INFO  : Context for 'APU' is selected.
+14:39:39 INFO  : System reset is completed.
+14:39:42 INFO  : 'after 3000' command is executed.
+14:39:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:39:45 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:39:45 INFO  : Context for 'APU' is selected.
+14:39:45 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:39:45 INFO  : 'configparams force-mem-access 1' command is executed.
+14:39:45 INFO  : Context for 'APU' is selected.
+14:39:45 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:39:46 INFO  : 'ps7_init' command is executed.
+14:39:46 INFO  : 'ps7_post_config' command is executed.
+14:39:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:39:46 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:39:46 INFO  : 'configparams force-mem-access 0' command is executed.
+14:39:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:39:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:39:46 INFO  : 'con' command is executed.
+14:39:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:39:46 INFO  : Disconnected from the channel tcfchan#2.
+14:42:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:42:03 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:42:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:08 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:42:08 INFO  : 'jtag frequency' command is executed.
+14:42:08 INFO  : Context for 'APU' is selected.
+14:42:08 INFO  : System reset is completed.
+14:42:11 INFO  : 'after 3000' command is executed.
+14:42:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:42:14 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:42:14 INFO  : Context for 'APU' is selected.
+14:42:14 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:42:14 INFO  : 'configparams force-mem-access 1' command is executed.
+14:42:14 INFO  : Context for 'APU' is selected.
+14:42:14 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:42:15 INFO  : 'ps7_init' command is executed.
+14:42:15 INFO  : 'ps7_post_config' command is executed.
+14:42:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:42:15 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:42:15 INFO  : 'configparams force-mem-access 0' command is executed.
+14:42:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:42:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:42:15 INFO  : 'con' command is executed.
+14:42:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:42:15 INFO  : Disconnected from the channel tcfchan#3.
+14:42:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:42:43 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:42:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:49 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:42:49 INFO  : 'jtag frequency' command is executed.
+14:42:49 INFO  : Context for 'APU' is selected.
+14:42:49 INFO  : System reset is completed.
+14:42:52 INFO  : 'after 3000' command is executed.
+14:42:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:42:54 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:42:54 INFO  : Context for 'APU' is selected.
+14:42:55 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:42:55 INFO  : 'configparams force-mem-access 1' command is executed.
+14:42:55 INFO  : Context for 'APU' is selected.
+14:42:55 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:42:55 INFO  : 'ps7_init' command is executed.
+14:42:55 INFO  : 'ps7_post_config' command is executed.
+14:42:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:42:55 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:42:55 INFO  : 'configparams force-mem-access 0' command is executed.
+14:42:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:42:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:42:56 INFO  : 'con' command is executed.
+14:42:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:42:56 INFO  : Disconnected from the channel tcfchan#4.
+14:43:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:43:13 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:43:13 INFO  : 'jtag frequency' command is executed.
+14:43:13 INFO  : Context for 'APU' is selected.
+14:43:13 INFO  : System reset is completed.
+14:43:16 INFO  : 'after 3000' command is executed.
+14:43:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:43:19 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:43:19 INFO  : Context for 'APU' is selected.
+14:43:19 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:43:19 INFO  : 'configparams force-mem-access 1' command is executed.
+14:43:19 INFO  : Context for 'APU' is selected.
+14:43:19 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:43:20 INFO  : 'ps7_init' command is executed.
+14:43:20 INFO  : 'ps7_post_config' command is executed.
+14:43:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:43:20 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:43:20 INFO  : 'configparams force-mem-access 0' command is executed.
+14:43:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:43:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:43:20 INFO  : 'con' command is executed.
+14:43:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:43:20 INFO  : Disconnected from the channel tcfchan#5.
+14:43:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:43:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:43:28 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:43:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:43:33 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:43:33 INFO  : 'jtag frequency' command is executed.
+14:43:33 INFO  : Context for 'APU' is selected.
+14:43:34 INFO  : System reset is completed.
+14:43:37 INFO  : 'after 3000' command is executed.
+14:43:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:43:39 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:43:39 INFO  : Context for 'APU' is selected.
+14:43:39 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:43:39 INFO  : 'configparams force-mem-access 1' command is executed.
+14:43:39 INFO  : Context for 'APU' is selected.
+14:43:39 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:43:40 INFO  : 'ps7_init' command is executed.
+14:43:40 INFO  : 'ps7_post_config' command is executed.
+14:43:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:43:40 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:43:40 INFO  : 'configparams force-mem-access 0' command is executed.
+14:43:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:43:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:43:40 INFO  : 'con' command is executed.
+14:43:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:43:40 INFO  : Disconnected from the channel tcfchan#6.
+14:44:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:44:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:44:06 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:44:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:44:14 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:44:14 INFO  : 'jtag frequency' command is executed.
+14:44:15 INFO  : Context for 'APU' is selected.
+14:44:15 INFO  : System reset is completed.
+14:44:18 INFO  : 'after 3000' command is executed.
+14:44:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:44:20 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:44:20 INFO  : Context for 'APU' is selected.
+14:44:20 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:44:20 INFO  : 'configparams force-mem-access 1' command is executed.
+14:44:20 INFO  : Context for 'APU' is selected.
+14:44:20 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:44:21 INFO  : 'ps7_init' command is executed.
+14:44:21 INFO  : 'ps7_post_config' command is executed.
+14:44:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:44:21 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:44:21 INFO  : 'configparams force-mem-access 0' command is executed.
+14:44:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:44:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:44:21 INFO  : 'con' command is executed.
+14:44:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:44:21 INFO  : Disconnected from the channel tcfchan#7.
+14:44:44 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:44:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:44:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:45:00 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:45:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:07 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:45:07 INFO  : 'jtag frequency' command is executed.
+14:45:07 INFO  : Context for 'APU' is selected.
+14:45:07 INFO  : System reset is completed.
+14:45:10 INFO  : 'after 3000' command is executed.
+14:45:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:45:12 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:45:12 INFO  : Context for 'APU' is selected.
+14:45:12 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:45:13 INFO  : 'configparams force-mem-access 1' command is executed.
+14:45:13 INFO  : Context for 'APU' is selected.
+14:45:13 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:45:13 INFO  : 'ps7_init' command is executed.
+14:45:13 INFO  : 'ps7_post_config' command is executed.
+14:45:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:45:13 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:45:13 INFO  : 'configparams force-mem-access 0' command is executed.
+14:45:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:45:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:45:14 INFO  : 'con' command is executed.
+14:45:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:45:14 INFO  : Disconnected from the channel tcfchan#8.
+14:45:27 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:45:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:45:40 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:45:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:45 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:45:45 INFO  : 'jtag frequency' command is executed.
+14:45:45 INFO  : Context for 'APU' is selected.
+14:45:45 INFO  : System reset is completed.
+14:45:48 INFO  : 'after 3000' command is executed.
+14:45:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:45:50 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:45:51 INFO  : Context for 'APU' is selected.
+14:45:51 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:45:51 INFO  : 'configparams force-mem-access 1' command is executed.
+14:45:51 INFO  : Context for 'APU' is selected.
+14:45:51 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:45:51 INFO  : 'ps7_init' command is executed.
+14:45:51 INFO  : 'ps7_post_config' command is executed.
+14:45:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:45:52 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:45:52 INFO  : 'configparams force-mem-access 0' command is executed.
+14:45:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:45:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:45:52 INFO  : 'con' command is executed.
+14:45:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:45:52 INFO  : Disconnected from the channel tcfchan#9.
+14:46:11 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:46:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:46:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:46:36 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:46:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:46:41 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:46:41 INFO  : 'jtag frequency' command is executed.
+14:46:41 INFO  : Context for 'APU' is selected.
+14:46:41 INFO  : System reset is completed.
+14:46:44 INFO  : 'after 3000' command is executed.
+14:46:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:46:47 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:46:47 INFO  : Context for 'APU' is selected.
+14:46:47 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:46:47 INFO  : 'configparams force-mem-access 1' command is executed.
+14:46:47 INFO  : Context for 'APU' is selected.
+14:46:47 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:46:48 INFO  : 'ps7_init' command is executed.
+14:46:48 INFO  : 'ps7_post_config' command is executed.
+14:46:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:46:48 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:46:48 INFO  : 'configparams force-mem-access 0' command is executed.
+14:46:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:46:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:46:48 INFO  : 'con' command is executed.
+14:46:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:46:48 INFO  : Disconnected from the channel tcfchan#10.
+14:47:15 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:47:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:47:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:47:29 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:47:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:47:39 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:47:39 INFO  : 'jtag frequency' command is executed.
+14:47:39 INFO  : Context for 'APU' is selected.
+14:47:39 INFO  : System reset is completed.
+14:47:42 INFO  : 'after 3000' command is executed.
+14:47:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:47:44 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:47:44 INFO  : Context for 'APU' is selected.
+14:47:44 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:47:44 INFO  : 'configparams force-mem-access 1' command is executed.
+14:47:44 INFO  : Context for 'APU' is selected.
+14:47:44 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:47:45 INFO  : 'ps7_init' command is executed.
+14:47:45 INFO  : 'ps7_post_config' command is executed.
+14:47:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:47:45 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:47:45 INFO  : 'configparams force-mem-access 0' command is executed.
+14:47:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:47:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:47:45 INFO  : 'con' command is executed.
+14:47:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:47:45 INFO  : Disconnected from the channel tcfchan#11.
+14:47:58 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:48:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:48:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:48:11 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:48:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:48:18 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:48:18 INFO  : 'jtag frequency' command is executed.
+14:48:18 INFO  : Context for 'APU' is selected.
+14:48:18 INFO  : System reset is completed.
+14:48:21 INFO  : 'after 3000' command is executed.
+14:48:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:48:24 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:48:24 INFO  : Context for 'APU' is selected.
+14:48:24 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:48:24 INFO  : 'configparams force-mem-access 1' command is executed.
+14:48:24 INFO  : Context for 'APU' is selected.
+14:48:24 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:48:25 INFO  : 'ps7_init' command is executed.
+14:48:25 INFO  : 'ps7_post_config' command is executed.
+14:48:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:48:25 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:48:25 INFO  : 'configparams force-mem-access 0' command is executed.
+14:48:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:48:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:48:25 INFO  : 'con' command is executed.
+14:48:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:48:25 INFO  : Disconnected from the channel tcfchan#12.
+14:48:43 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:48:54 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:49:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:49:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:49:09 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:49:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:49:18 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:49:18 INFO  : 'jtag frequency' command is executed.
+14:49:18 INFO  : Context for 'APU' is selected.
+14:49:18 INFO  : System reset is completed.
+14:49:21 INFO  : 'after 3000' command is executed.
+14:49:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:49:23 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:49:23 INFO  : Context for 'APU' is selected.
+14:49:23 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:49:23 INFO  : 'configparams force-mem-access 1' command is executed.
+14:49:24 INFO  : Context for 'APU' is selected.
+14:49:24 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:49:24 INFO  : 'ps7_init' command is executed.
+14:49:24 INFO  : 'ps7_post_config' command is executed.
+14:49:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:49:24 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:49:24 INFO  : 'configparams force-mem-access 0' command is executed.
+14:49:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:49:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:49:25 INFO  : 'con' command is executed.
+14:49:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:49:25 INFO  : Disconnected from the channel tcfchan#13.
+14:50:00 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:50:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:50:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:50:27 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:50:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:50:36 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:50:36 INFO  : 'jtag frequency' command is executed.
+14:50:36 INFO  : Context for 'APU' is selected.
+14:50:36 INFO  : System reset is completed.
+14:50:39 INFO  : 'after 3000' command is executed.
+14:50:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:50:41 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:50:41 INFO  : Context for 'APU' is selected.
+14:50:42 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:50:42 INFO  : 'configparams force-mem-access 1' command is executed.
+14:50:42 INFO  : Context for 'APU' is selected.
+14:50:42 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:50:42 INFO  : 'ps7_init' command is executed.
+14:50:42 INFO  : 'ps7_post_config' command is executed.
+14:50:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:50:42 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:50:42 INFO  : 'configparams force-mem-access 0' command is executed.
+14:50:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:50:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:50:43 INFO  : 'con' command is executed.
+14:50:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:50:43 INFO  : Disconnected from the channel tcfchan#14.
+14:51:01 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+14:51:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:51:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:51:24 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:51:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:51:38 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:51:38 INFO  : 'jtag frequency' command is executed.
+14:51:38 INFO  : Context for 'APU' is selected.
+14:51:38 INFO  : System reset is completed.
+14:51:41 INFO  : 'after 3000' command is executed.
+14:51:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:51:44 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+14:51:44 INFO  : Context for 'APU' is selected.
+14:51:44 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+14:51:44 INFO  : 'configparams force-mem-access 1' command is executed.
+14:51:44 INFO  : Context for 'APU' is selected.
+14:51:44 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+14:51:44 INFO  : 'ps7_init' command is executed.
+14:51:44 INFO  : 'ps7_post_config' command is executed.
+14:51:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:51:45 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:51:45 INFO  : 'configparams force-mem-access 0' command is executed.
+14:51:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:51:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:51:45 INFO  : 'con' command is executed.
+14:51:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:51:45 INFO  : Disconnected from the channel tcfchan#15.
+15:03:34 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+15:03:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:03:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:03:49 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+15:03:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:03:57 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:03:57 INFO  : 'jtag frequency' command is executed.
+15:03:57 INFO  : Context for 'APU' is selected.
+15:03:57 INFO  : System reset is completed.
+15:04:00 INFO  : 'after 3000' command is executed.
+15:04:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:04:03 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+15:04:03 INFO  : Context for 'APU' is selected.
+15:04:03 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+15:04:03 INFO  : 'configparams force-mem-access 1' command is executed.
+15:04:03 INFO  : Context for 'APU' is selected.
+15:04:03 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+15:04:03 INFO  : 'ps7_init' command is executed.
+15:04:03 INFO  : 'ps7_post_config' command is executed.
+15:04:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:04:04 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:04:04 INFO  : 'configparams force-mem-access 0' command is executed.
+15:04:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:04:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:04:04 INFO  : 'con' command is executed.
+15:04:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:04:04 INFO  : Disconnected from the channel tcfchan#16.
+15:04:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:04:31 ERROR : 'fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit' is cancelled.
+15:04:36 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+15:04:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:04:59 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+15:05:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:05:21 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:05:21 INFO  : 'jtag frequency' command is executed.
+15:05:21 INFO  : Context for 'APU' is selected.
+15:05:21 INFO  : System reset is completed.
+15:05:24 INFO  : 'after 3000' command is executed.
+15:05:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:05:27 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit"
+15:05:27 INFO  : Context for 'APU' is selected.
+15:05:27 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa'.
+15:05:27 INFO  : 'configparams force-mem-access 1' command is executed.
+15:05:27 INFO  : Context for 'APU' is selected.
+15:05:27 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+15:05:27 INFO  : 'ps7_init' command is executed.
+15:05:27 INFO  : 'ps7_post_config' command is executed.
+15:05:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:05:28 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:05:28 INFO  : 'configparams force-mem-access 0' command is executed.
+15:05:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:05:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:05:28 INFO  : 'con' command is executed.
+15:05:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:05:28 INFO  : Disconnected from the channel tcfchan#17.
+15:18:47 INFO  : Hardware specification for platform project 'motor_pwm_plztforme' is updated.
+15:18:56 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+15:18:56 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+15:19:26 INFO  : The hardware specfication used by project 'test_pwm' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+15:19:26 INFO  : The file 'C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_motor_pwm\test_pwm\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+15:19:26 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_motor_pwm\test_pwm\_ide\bitstream' in project 'test_pwm'.
+15:19:26 INFO  : The file 'C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_motor_pwm\test_pwm\_ide\psinit\ps7_init.tcl' stored in project is removed.
+15:19:38 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_motor_pwm\test_pwm\_ide\psinit' in project 'test_pwm'.
+15:19:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:19:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:19:51 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_2_wrapper.bit"
+15:19:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:19:56 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:19:56 INFO  : 'jtag frequency' command is executed.
+15:19:56 INFO  : Context for 'APU' is selected.
+15:19:56 INFO  : System reset is completed.
+15:19:59 INFO  : 'after 3000' command is executed.
+15:19:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:19:59 ERROR : couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:19:59 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:19:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+15:19:59 ERROR : couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:20:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:13 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:20:13 INFO  : 'jtag frequency' command is executed.
+15:20:13 INFO  : Context for 'APU' is selected.
+15:20:14 INFO  : System reset is completed.
+15:20:17 INFO  : 'after 3000' command is executed.
+15:20:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:20:19 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_2_wrapper.bit"
+15:20:19 INFO  : Context for 'APU' is selected.
+15:20:19 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_2_wrapper.xsa'.
+15:20:19 INFO  : 'configparams force-mem-access 1' command is executed.
+15:20:19 INFO  : Context for 'APU' is selected.
+15:20:19 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+15:20:20 INFO  : 'ps7_init' command is executed.
+15:20:20 INFO  : 'ps7_post_config' command is executed.
+15:20:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:20:20 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:20:20 INFO  : 'configparams force-mem-access 0' command is executed.
+15:20:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_2_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_2_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:20:20 INFO  : Memory regions updated for context APU
+15:20:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:20:20 INFO  : 'con' command is executed.
+15:20:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:20:20 INFO  : Launch script is exported to file 'C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_motor_pwm\.sdk\launch_scripts\single_application_debug\debugger_test_pwm-default.tcl'
+15:20:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:20:34 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_2_wrapper.bit"
+15:20:42 INFO  : Disconnected from the channel tcfchan#19.
+15:20:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:43 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:20:43 INFO  : 'jtag frequency' command is executed.
+15:20:43 INFO  : Context for 'APU' is selected.
+15:20:43 INFO  : System reset is completed.
+15:20:46 INFO  : 'after 3000' command is executed.
+15:20:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:20:49 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_2_wrapper.bit"
+15:20:49 INFO  : Context for 'APU' is selected.
+15:20:49 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_2_wrapper.xsa'.
+15:20:49 INFO  : 'configparams force-mem-access 1' command is executed.
+15:20:49 INFO  : Context for 'APU' is selected.
+15:20:49 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl' is done.
+15:20:49 INFO  : 'ps7_init' command is executed.
+15:20:49 INFO  : 'ps7_post_config' command is executed.
+15:20:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:20:49 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:20:50 INFO  : 'configparams force-mem-access 0' command is executed.
+15:20:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_2_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_2_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/Debug/test_pwm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:20:50 INFO  : Memory regions updated for context APU
+15:20:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:20:50 INFO  : 'con' command is executed.
+15:20:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:20:50 INFO  : Launch script is exported to file 'C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_motor_pwm\.sdk\launch_scripts\single_application_debug\debugger_test_pwm-default.tcl'
+15:21:08 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+15:21:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:21:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:21:41 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_2_wrapper.bit"
+15:21:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:21:47 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:21:47 INFO  : 'jtag frequency' command is executed.
+15:21:47 INFO  : Context for 'APU' is selected.
+15:21:47 INFO  : System reset is completed.
+15:21:50 INFO  : 'after 3000' command is executed.
+15:21:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:21:50 ERROR : couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:21:51 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:21:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+15:21:51 ERROR : couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:23:27 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm'...
+15:24:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:24:09 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_2_wrapper.bit"
+15:24:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:22 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:24:22 INFO  : 'jtag frequency' command is executed.
+15:24:22 INFO  : Context for 'APU' is selected.
+15:24:22 INFO  : System reset is completed.
+15:24:25 INFO  : 'after 3000' command is executed.
+15:24:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:24:25 ERROR : couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:24:25 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:24:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+15:24:25 ERROR : couldn't open "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+15:25:45 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm2'...
+15:25:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:25:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:25:56 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/bitstream/design_2_wrapper.bit"
+15:26:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:26:02 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:26:02 INFO  : 'jtag frequency' command is executed.
+15:26:02 INFO  : Context for 'APU' is selected.
+15:26:02 INFO  : System reset is completed.
+15:26:05 INFO  : 'after 3000' command is executed.
+15:26:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:26:07 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/bitstream/design_2_wrapper.bit"
+15:26:07 INFO  : Context for 'APU' is selected.
+15:26:07 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_2_wrapper.xsa'.
+15:26:07 INFO  : 'configparams force-mem-access 1' command is executed.
+15:26:07 INFO  : Context for 'APU' is selected.
+15:26:07 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/psinit/ps7_init.tcl' is done.
+15:26:08 INFO  : 'ps7_init' command is executed.
+15:26:08 INFO  : 'ps7_post_config' command is executed.
+15:26:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:26:08 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/Debug/test_pwm2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:26:08 INFO  : 'configparams force-mem-access 0' command is executed.
+15:26:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/bitstream/design_2_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_2_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/Debug/test_pwm2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:26:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:26:08 INFO  : 'con' command is executed.
+15:26:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:26:08 INFO  : Disconnected from the channel tcfchan#20.
+15:26:56 INFO  : Checking for BSP changes to sync application flags for project 'test_pwm2'...
+15:27:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:27:06 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/bitstream/design_2_wrapper.bit"
+15:27:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:11 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:27:11 INFO  : 'jtag frequency' command is executed.
+15:27:11 INFO  : Context for 'APU' is selected.
+15:27:11 INFO  : System reset is completed.
+15:27:14 INFO  : 'after 3000' command is executed.
+15:27:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:27:16 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/bitstream/design_2_wrapper.bit"
+15:27:16 INFO  : Context for 'APU' is selected.
+15:27:16 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_2_wrapper.xsa'.
+15:27:16 INFO  : 'configparams force-mem-access 1' command is executed.
+15:27:16 INFO  : Context for 'APU' is selected.
+15:27:16 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/psinit/ps7_init.tcl' is done.
+15:27:17 INFO  : 'ps7_init' command is executed.
+15:27:17 INFO  : 'ps7_post_config' command is executed.
+15:27:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:27:17 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/Debug/test_pwm2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:27:17 INFO  : 'configparams force-mem-access 0' command is executed.
+15:27:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/bitstream/design_2_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/motor_pwm_plztforme/export/motor_pwm_plztforme/hw/design_2_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_motor_pwm/test_pwm2/Debug/test_pwm2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:27:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:27:17 INFO  : 'con' command is executed.
+15:27:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:27:17 INFO  : Disconnected from the channel tcfchan#22.
+15:28:16 WARN  : channel "tcfchan#20" closed

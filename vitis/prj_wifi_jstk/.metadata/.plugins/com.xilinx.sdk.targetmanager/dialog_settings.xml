@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="test_reciver-target"/>
+	<item value="Local" key="test_wifi-target"/>
+	<item value="Local" key="test_trans-target"/>
+	<item value="test" key="programfpga.sdxproject"/>
+	<item value="false" key="test_trans-skip_rev_check"/>
+	<item value="false" key="test_reciver-skip_rev_check"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="test-bitFile"/>
+	<item value="false" key="test-partial_bit"/>
+	<item value="false" key="test_wifi-partial_bit"/>
+	<item value="false" key="test_trans-partial_bit"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="test_trans-bitFile"/>
+	<item value="false" key="test_wifi-skip_rev_check"/>
+	<item value="Local" key="test_wifi_jstk_trans-target"/>
+	<item value="Auto Detect" key="test_wifi-device"/>
+	<item value="Xilinx TUL 1234-tulA/2-xc7z020" key="test_reciver-device"/>
+	<item value="false" key="test_reciver-partial_bit"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="test_wifi_jstk_trans-bitFile"/>
+	<item value="" key="test_trans-bmmFile"/>
+	<item value="" key="test_reciver-bmmFile"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="test_wifi-bitFile"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="test_reciver-bitFile"/>
+	<item value="" key="test_wifi_jstk_trans-bmmFile"/>
+	<item value="" key="test_wifi-bmmFile"/>
+	<item value="" key="test-bmmFile"/>
+	<item value="Auto Detect" key="test-device"/>
+	<item value="false" key="test_wifi_jstk_trans-skip_rev_check"/>
+	<item value="Auto Detect" key="test_trans-device"/>
+	<item value="Auto Detect" key="test_wifi_jstk_trans-device"/>
+	<item value="Local" key="test-target"/>
+	<item value="false" key="test-skip_rev_check"/>
+	<item value="false" key="test_wifi_jstk_trans-partial_bit"/>
+</section>

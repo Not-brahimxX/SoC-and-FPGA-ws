@@ -1,0 +1,1203 @@
+TRACE::2024-09-26.15:03:36::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:36::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:36::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:36::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:36::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:36::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:36::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-09-26.15:03:45::SCWPlatform::Opened new HwDB with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWWriter::formatted JSON is {
+	"platformName":	"plat2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"plat2",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_12_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_12_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-09-26.15:03:45::SCWWriter::formatted JSON is {
+	"platformName":	"plat2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"plat2",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_12_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_12_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"plat2",
+	"systems":	[{
+			"systemName":	"plat2",
+			"systemDesc":	"plat2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"plat2"
+		}]
+}
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:45::SCWDomain::checking for install qemu data   : 
+TRACE::2024-09-26.15:03:45::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2024-09-26.15:03:45::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:45::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-09-26.15:03:45::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::mss does not exists at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::Creating sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::Adding the swdes entry, created swdb C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::Writing mss at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-26.15:03:45::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-09-26.15:03:45::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:45::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-26.15:03:45::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:45::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-26.15:03:45::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:45::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-26.15:03:45::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWWriter::formatted JSON is {
+	"platformName":	"plat2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"plat2",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_12_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_12_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"plat2",
+	"systems":	[{
+			"systemName":	"plat2",
+			"systemDesc":	"plat2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"plat2",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:45::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:45::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-26.15:03:45::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:45::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-26.15:03:45::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2024-09-26.15:03:47::SCWPlatform::Started generating the artifacts platform plat2
+TRACE::2024-09-26.15:03:47::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-26.15:03:47::SCWPlatform::Started generating the artifacts for system configuration plat2
+LOG::2024-09-26.15:03:47::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-26.15:03:47::SCWSystem::Not a boot domain 
+LOG::2024-09-26.15:03:47::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-26.15:03:47::SCWDomain::Generating domain artifcats
+TRACE::2024-09-26.15:03:47::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-26.15:03:47::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/export/plat2/sw/plat2/qemu/
+TRACE::2024-09-26.15:03:47::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/export/plat2/sw/plat2/standalone_domain/qemu/
+TRACE::2024-09-26.15:03:47::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2024-09-26.15:03:47::SCWMssOS::Could not open the swdb for C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+KEYINFO::2024-09-26.15:03:47::SCWMssOS::Could not open the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-09-26.15:03:47::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::mss exists loading the mss file  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::Opened the sw design from mss  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::Adding the swdes entry C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-09-26.15:03:47::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-26.15:03:47::SCWMssOS::Opened the sw design.  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-26.15:03:47::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-26.15:03:47::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-26.15:03:47::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-09-26.15:03:47::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-09-26.15:03:47::SCWMssOS::Copying to export directory.
+TRACE::2024-09-26.15:03:47::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-09-26.15:03:47::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-09-26.15:03:47::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-09-26.15:03:47::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-09-26.15:03:47::SCWSystem::Completed Processing the sysconfig plat2
+LOG::2024-09-26.15:03:47::SCWPlatform::Completed generating the artifacts for system configuration plat2
+TRACE::2024-09-26.15:03:47::SCWPlatform::Started preparing the platform 
+TRACE::2024-09-26.15:03:47::SCWSystem::Writing the bif file for system config plat2
+TRACE::2024-09-26.15:03:47::SCWSystem::dir created 
+TRACE::2024-09-26.15:03:47::SCWSystem::Writing the bif 
+TRACE::2024-09-26.15:03:47::SCWPlatform::Started writing the spfm file 
+TRACE::2024-09-26.15:03:47::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-09-26.15:03:47::SCWPlatform::Completed generating the platform
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWWriter::formatted JSON is {
+	"platformName":	"plat2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"plat2",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_12_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_12_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"plat2",
+	"systems":	[{
+			"systemName":	"plat2",
+			"systemDesc":	"plat2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"plat2",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-09-26.15:03:47::SCWPlatform::updated the xpfm file.
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWWriter::formatted JSON is {
+	"platformName":	"plat2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"plat2",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_12_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_12_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"plat2",
+	"systems":	[{
+			"systemName":	"plat2",
+			"systemDesc":	"plat2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"plat2",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:48::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:48::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:48::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:48::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:48::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:48::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:48::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:48::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWWriter::formatted JSON is {
+	"platformName":	"plat2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"plat2",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_12_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_12_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"plat2",
+	"systems":	[{
+			"systemName":	"plat2",
+			"systemDesc":	"plat2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"plat2",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:48::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:48::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:48::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:48::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-09-26.15:03:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:48::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:48::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWWriter::formatted JSON is {
+	"platformName":	"plat2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"plat2",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_12_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_12_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"plat2",
+	"systems":	[{
+			"systemName":	"plat2",
+			"systemDesc":	"plat2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"plat2",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-26.15:03:48::SCWPlatform::Clearing the existing platform
+TRACE::2024-09-26.15:03:48::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-09-26.15:03:48::SCWMssOS::Removing the swdes entry for  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:48::SCWSystem::Clearing the domains completed.
+TRACE::2024-09-26.15:03:48::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform location is C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:48::SCWPlatform::Removing the HwDB with name C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:48::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:48::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:49::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:49::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-09-26.15:03:59::SCWPlatform::Opened new HwDB with name design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWReader::Active system found as  plat2
+TRACE::2024-09-26.15:03:59::SCWReader::Handling sysconfig plat2
+TRACE::2024-09-26.15:03:59::SCWDomain::checking for install qemu data   : 
+TRACE::2024-09-26.15:03:59::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2024-09-26.15:03:59::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:59::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-09-26.15:03:59::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::mss exists loading the mss file  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::Opened the sw design from mss  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::Adding the swdes entry C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-09-26.15:03:59::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-26.15:03:59::SCWMssOS::Opened the sw design.  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-09-26.15:03:59::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:59::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:59::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWReader::No isolation master present  
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:59::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:03:59::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::In reload Mss file.
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:03:59::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:03:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:03:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:03:59::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2024-09-26.15:03:59::SCWMssOS::Could not open the swdb for system
+KEYINFO::2024-09-26.15:03:59::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2024-09-26.15:03:59::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-09-26.15:03:59::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::mss exists loading the mss file  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::Opened the sw design from mss  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:03:59::SCWMssOS::Adding the swdes entry C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-09-26.15:03:59::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-26.15:04:00::SCWMssOS::Opened the sw design.  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:00::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:04:00::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:04:00::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:04:00::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:04:00::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:04:00::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:04:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:04:00::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:04:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:04:00::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:04:00::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:00::SCWMssOS::Removing the swdes entry for  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+LOG::2024-09-26.15:04:29::SCWPlatform::Started generating the artifacts platform plat2
+TRACE::2024-09-26.15:04:29::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-26.15:04:29::SCWPlatform::Started generating the artifacts for system configuration plat2
+LOG::2024-09-26.15:04:29::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-26.15:04:29::SCWSystem::Not a boot domain 
+LOG::2024-09-26.15:04:29::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-26.15:04:29::SCWDomain::Generating domain artifcats
+TRACE::2024-09-26.15:04:29::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-26.15:04:29::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/export/plat2/sw/plat2/qemu/
+TRACE::2024-09-26.15:04:29::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/export/plat2/sw/plat2/standalone_domain/qemu/
+TRACE::2024-09-26.15:04:29::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-26.15:04:29::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:04:29::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:04:29::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:04:29::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:04:29::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:04:29::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:04:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:04:29::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:04:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:04:29::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:29::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-09-26.15:04:29::SCWMssOS::No sw design opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:29::SCWMssOS::mss exists loading the mss file  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:29::SCWMssOS::Opened the sw design from mss  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:29::SCWMssOS::Adding the swdes entry C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-09-26.15:04:29::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-26.15:04:29::SCWMssOS::Opened the sw design.  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:29::SCWMssOS::Completed writing the mss file at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-09-26.15:04:29::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:04:29::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-26.15:04:29::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-26.15:04:29::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-09-26.15:04:29::SCWMssOS::doing bsp build ... 
+TRACE::2024-09-26.15:04:29::SCWMssOS::System Command Ran  C: & cd  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2024-09-26.15:04:30::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-26.15:04:30::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2024-09-26.15:04:30::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2024-09-26.15:04:30::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:30::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-26.15:04:30::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-26.15:04:30::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-26.15:04:30::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:31::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-26.15:04:31::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-26.15:04:31::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-26.15:04:31::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:31::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-26.15:04:31::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-26.15:04:31::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-26.15:04:31::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:31::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-26.15:04:31::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-26.15:04:31::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-26.15:04:31::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:32::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-26.15:04:32::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-09-26.15:04:32::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-09-26.15:04:32::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:32::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-26.15:04:32::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-26.15:04:32::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-26.15:04:32::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:32::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-26.15:04:32::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-26.15:04:32::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-26.15:04:32::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:32::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-26.15:04:32::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-26.15:04:32::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-26.15:04:32::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:35::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2024-09-26.15:04:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-26.15:04:35::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-26.15:04:35::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2024-09-26.15:04:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-26.15:04:36::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-26.15:04:36::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2024-09-26.15:04:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-09-26.15:04:36::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-09-26.15:04:36::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2024-09-26.15:04:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-26.15:04:36::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-26.15:04:36::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:37::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2024-09-26.15:04:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-26.15:04:37::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-26.15:04:37::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:37::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-09-26.15:04:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-09-26.15:04:37::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-09-26.15:04:37::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:38::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2024-09-26.15:04:38::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-26.15:04:38::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-26.15:04:38::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:38::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2024-09-26.15:04:38::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-26.15:04:38::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-26.15:04:38::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:38::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2024-09-26.15:04:38::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-26.15:04:38::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-26.15:04:38::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:38::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2024-09-26.15:04:38::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-09-26.15:04:38::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-09-26.15:04:38::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:39::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2024-09-26.15:04:39::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2024-09-26.15:04:39::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-09-26.15:04:39::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-09-26.15:04:39::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:40::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2024-09-26.15:04:40::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2024-09-26.15:04:40::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-26.15:04:40::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-26.15:04:40::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:40::SCWMssOS::"Compiling ddrps"
+
+TRACE::2024-09-26.15:04:40::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2024-09-26.15:04:40::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-26.15:04:40::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-26.15:04:40::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:40::SCWMssOS::"Compiling devcfg"
+
+TRACE::2024-09-26.15:04:42::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2024-09-26.15:04:42::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-26.15:04:42::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-26.15:04:42::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:43::SCWMssOS::"Compiling dmaps"
+
+TRACE::2024-09-26.15:04:45::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2024-09-26.15:04:45::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2024-09-26.15:04:45::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2024-09-26.15:04:45::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:45::SCWMssOS::"Compiling emacps"
+
+TRACE::2024-09-26.15:04:48::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2024-09-26.15:04:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-26.15:04:49::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-26.15:04:49::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:50::SCWMssOS::"Compiling gpiops"
+
+TRACE::2024-09-26.15:04:54::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src"
+
+TRACE::2024-09-26.15:04:54::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodJSTK2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-09-26.15:04:54::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-09-26.15:04:54::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:54::SCWMssOS::"Compiling PmodJSTK2"
+
+TRACE::2024-09-26.15:04:56::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src"
+
+TRACE::2024-09-26.15:04:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodWIFI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-26.15:04:56::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-26.15:04:56::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:04:56::SCWMssOS::"Compiling PmodWIFI..."
+
+TRACE::2024-09-26.15:05:19::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2024-09-26.15:05:19::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-26.15:05:19::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-26.15:05:19::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:19::SCWMssOS::"Compiling qspips"
+
+TRACE::2024-09-26.15:05:21::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2024-09-26.15:05:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-26.15:05:21::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-26.15:05:21::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:21::SCWMssOS::"Compiling scugic"
+
+TRACE::2024-09-26.15:05:23::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2024-09-26.15:05:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-09-26.15:05:23::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-09-26.15:05:23::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:24::SCWMssOS::"Compiling scutimer"
+
+TRACE::2024-09-26.15:05:25::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2024-09-26.15:05:25::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-26.15:05:25::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-26.15:05:25::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:25::SCWMssOS::"Compiling scuwdt"
+
+TRACE::2024-09-26.15:05:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2024-09-26.15:05:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2024-09-26.15:05:27::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2024-09-26.15:05:27::SCWMssOS::les -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:27::SCWMssOS::"Compiling sdps"
+
+TRACE::2024-09-26.15:05:29::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-09-26.15:05:29::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-09-26.15:05:29::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-09-26.15:05:29::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:30::SCWMssOS::"Compiling standalone"
+
+TRACE::2024-09-26.15:05:38::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2024-09-26.15:05:38::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-26.15:05:38::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-26.15:05:38::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:39::SCWMssOS::"Compiling uartps"
+
+TRACE::2024-09-26.15:05:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2024-09-26.15:05:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2024-09-26.15:05:41::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2024-09-26.15:05:41::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:41::SCWMssOS::"Compiling usbps"
+
+TRACE::2024-09-26.15:05:44::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2024-09-26.15:05:44::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2024-09-26.15:05:44::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2024-09-26.15:05:44::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2024-09-26.15:05:44::SCWMssOS::"Compiling xadcps"
+
+TRACE::2024-09-26.15:05:47::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-09-26.15:05:47::SCWMssOS::Copying to export directory.
+TRACE::2024-09-26.15:05:47::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-09-26.15:05:47::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-09-26.15:05:47::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-09-26.15:05:47::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-09-26.15:05:47::SCWSystem::Completed Processing the sysconfig plat2
+LOG::2024-09-26.15:05:47::SCWPlatform::Completed generating the artifacts for system configuration plat2
+TRACE::2024-09-26.15:05:47::SCWPlatform::Started preparing the platform 
+TRACE::2024-09-26.15:05:47::SCWSystem::Writing the bif file for system config plat2
+TRACE::2024-09-26.15:05:47::SCWSystem::dir created 
+TRACE::2024-09-26.15:05:47::SCWSystem::Writing the bif 
+TRACE::2024-09-26.15:05:47::SCWPlatform::Started writing the spfm file 
+TRACE::2024-09-26.15:05:47::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-09-26.15:05:47::SCWPlatform::Completed generating the platform
+TRACE::2024-09-26.15:05:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:05:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:05:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:05:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:05:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:05:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:05:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:05:47::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:05:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:05:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:05:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:05:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:05:47::SCWWriter::formatted JSON is {
+	"platformName":	"plat2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"plat2",
+	"platHandOff":	"C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_robot_wifi_jstk_trans/design_12_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_12_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"plat2",
+	"systems":	[{
+			"systemName":	"plat2",
+			"systemDesc":	"plat2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"plat2",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"09652a9a8e26e342995c74117e804d0b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-09-26.15:05:47::SCWPlatform::updated the xpfm file.
+TRACE::2024-09-26.15:05:47::SCWPlatform::Trying to open the hw design at C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:05:47::SCWPlatform::DSA given C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:05:47::SCWPlatform::DSA absoulate path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:05:47::SCWPlatform::DSA directory C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw
+TRACE::2024-09-26.15:05:47::SCWPlatform:: Platform Path C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/hw/design_12_wrapper.xsa
+TRACE::2024-09-26.15:05:47::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2024-09-26.15:05:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_12
+TRACE::2024-09-26.15:05:47::SCWPlatform::Opened existing hwdb design_1_wrapper_12
+TRACE::2024-09-26.15:05:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-26.15:05:47::SCWMssOS::Checking the sw design at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-26.15:05:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-09-26.15:05:47::SCWMssOS::Sw design exists and opened at  C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/plat2/ps7_cortexa9_0/standalone_domain/bsp/system.mss

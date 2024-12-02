@@ -1,0 +1,7 @@
+/*prj_counter_interrupt*/
+the_ROM_image:
+{
+  [bootloader]<prj_counter_interrupt/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

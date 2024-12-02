@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Sep 23 13:57:06 2024
+# Process ID: 2620
+# Current directory: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_motors_pwm
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5968 C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vivado\project_motors_pwm\project_motors_pwm.xpr
+# Log file: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_motors_pwm/vivado.log
+# Journal file: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_motors_pwm\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_motors_pwm/project_motors_pwm.xpr
+update_compile_order -fileset sources_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_motors_pwm/design_1_wrapper.xsa
+open_run synth_1 -name synth_1
+place_ports {GPIO_0_tri_o[1]} U18
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_motors_pwm/design_2_wrapper.xsa
+write_hw_platform -fixed -force  -include_bit -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_motors_pwm/design_2_wrapper.xsa

@@ -1,0 +1,512 @@
+11:07:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_wifi\temp_xsdb_launch_script.tcl
+11:07:20 INFO  : Registering command handlers for Vitis TCF services
+11:07:21 INFO  : XSCT server has started successfully.
+11:07:21 INFO  : plnx-install-location is set to ''
+11:07:26 INFO  : Successfully done setting XSCT server connection channel  
+11:07:26 INFO  : Successfully done query RDI_DATADIR 
+11:07:26 INFO  : Successfully done setting workspace for the tool. 
+11:08:41 ERROR : Failed to create platform.
+11:12:30 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+11:15:22 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test'...
+11:16:26 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test'...
+11:18:10 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test'...
+11:20:55 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+11:22:00 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test2'...
+11:23:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:23:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:23:08 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+11:24:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:24:03 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:24:03 INFO  : 'jtag frequency' command is executed.
+11:24:03 INFO  : Context for 'APU' is selected.
+11:24:03 INFO  : System reset is completed.
+11:24:06 INFO  : 'after 3000' command is executed.
+11:24:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:24:09 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+11:24:09 INFO  : Context for 'APU' is selected.
+11:24:09 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+11:24:09 INFO  : 'configparams force-mem-access 1' command is executed.
+11:24:09 INFO  : Context for 'APU' is selected.
+11:24:09 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl' is done.
+11:24:10 INFO  : 'ps7_init' command is executed.
+11:24:10 INFO  : 'ps7_post_config' command is executed.
+11:24:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:24:11 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:24:11 INFO  : 'configparams force-mem-access 0' command is executed.
+11:24:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:24:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:24:11 INFO  : 'con' command is executed.
+11:24:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:24:11 INFO  : Disconnected from the channel tcfchan#3.
+11:27:55 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test2'...
+11:31:35 INFO  : Removed 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme/export/wifi_platforme' from custom platform repositories.
+11:39:27 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test2'...
+11:39:54 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test2'...
+11:40:09 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test2'...
+11:41:36 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test2'...
+11:42:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:42:04 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+11:42:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:23 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:42:23 INFO  : 'jtag frequency' command is executed.
+11:42:23 INFO  : Context for 'APU' is selected.
+11:42:24 INFO  : System reset is completed.
+11:42:27 INFO  : 'after 3000' command is executed.
+11:42:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:42:29 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+11:42:29 INFO  : Context for 'APU' is selected.
+11:42:29 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+11:42:29 INFO  : 'configparams force-mem-access 1' command is executed.
+11:42:29 INFO  : Context for 'APU' is selected.
+11:42:29 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl' is done.
+11:42:30 INFO  : 'ps7_init' command is executed.
+11:42:30 INFO  : 'ps7_post_config' command is executed.
+11:42:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:31 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:42:31 INFO  : 'configparams force-mem-access 0' command is executed.
+11:42:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:42:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:31 INFO  : 'con' command is executed.
+11:42:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:42:31 INFO  : Disconnected from the channel tcfchan#4.
+11:46:08 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test2'...
+11:47:06 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test_scan'...
+11:47:39 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test_scan'...
+11:47:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:47:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:47:53 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/bitstream/design_1_wrapper.bit"
+11:48:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:48:35 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+11:49:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:49:19 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:49:19 INFO  : 'jtag frequency' command is executed.
+11:49:19 INFO  : Context for 'APU' is selected.
+11:49:19 INFO  : System reset is completed.
+11:49:22 INFO  : 'after 3000' command is executed.
+11:49:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:49:25 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+11:49:25 INFO  : Context for 'APU' is selected.
+11:49:25 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+11:49:25 INFO  : 'configparams force-mem-access 1' command is executed.
+11:49:25 INFO  : Context for 'APU' is selected.
+11:49:25 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl' is done.
+11:49:26 INFO  : 'ps7_init' command is executed.
+11:49:26 INFO  : 'ps7_post_config' command is executed.
+11:49:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:49:27 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:49:27 INFO  : 'configparams force-mem-access 0' command is executed.
+11:49:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:49:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:49:27 INFO  : 'con' command is executed.
+11:49:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:49:27 INFO  : Disconnected from the channel tcfchan#6.
+12:06:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+12:06:23 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/bitstream/design_1_wrapper.bit"
+12:06:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:28 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:06:28 INFO  : 'jtag frequency' command is executed.
+12:06:28 INFO  : Context for 'APU' is selected.
+12:06:28 INFO  : System reset is completed.
+12:06:31 INFO  : 'after 3000' command is executed.
+12:06:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+12:06:34 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/bitstream/design_1_wrapper.bit"
+12:06:34 INFO  : Context for 'APU' is selected.
+12:06:34 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+12:06:34 INFO  : 'configparams force-mem-access 1' command is executed.
+12:06:34 INFO  : Context for 'APU' is selected.
+12:06:34 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/psinit/ps7_init.tcl' is done.
+12:06:34 INFO  : 'ps7_init' command is executed.
+12:06:34 INFO  : 'ps7_post_config' command is executed.
+12:06:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:35 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/Debug/wifi_test_scan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:06:35 INFO  : 'configparams force-mem-access 0' command is executed.
+12:06:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/Debug/wifi_test_scan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:06:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:35 INFO  : 'con' command is executed.
+12:06:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:06:35 INFO  : Disconnected from the channel tcfchan#7.
+12:06:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:56 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:06:56 INFO  : 'jtag frequency' command is executed.
+12:06:56 INFO  : Context for 'APU' is selected.
+12:06:56 INFO  : System reset is completed.
+12:06:59 INFO  : 'after 3000' command is executed.
+12:06:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+12:07:02 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+12:07:02 INFO  : Context for 'APU' is selected.
+12:07:02 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+12:07:02 INFO  : 'configparams force-mem-access 1' command is executed.
+12:07:02 INFO  : Context for 'APU' is selected.
+12:07:02 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl' is done.
+12:07:02 INFO  : 'ps7_init' command is executed.
+12:07:02 INFO  : 'ps7_post_config' command is executed.
+12:07:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:07:03 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:07:03 INFO  : 'configparams force-mem-access 0' command is executed.
+12:07:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:07:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:07:03 INFO  : 'con' command is executed.
+12:07:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:07:03 INFO  : Disconnected from the channel tcfchan#8.
+12:08:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:08:13 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:08:13 INFO  : 'jtag frequency' command is executed.
+12:08:13 INFO  : Context for 'APU' is selected.
+12:08:13 INFO  : System reset is completed.
+12:08:16 INFO  : 'after 3000' command is executed.
+12:08:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+12:08:19 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/bitstream/design_1_wrapper.bit"
+12:08:19 INFO  : Context for 'APU' is selected.
+12:08:19 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+12:08:19 INFO  : 'configparams force-mem-access 1' command is executed.
+12:08:19 INFO  : Context for 'APU' is selected.
+12:08:19 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/psinit/ps7_init.tcl' is done.
+12:08:19 INFO  : 'ps7_init' command is executed.
+12:08:19 INFO  : 'ps7_post_config' command is executed.
+12:08:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:08:21 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/Debug/wifi_test_scan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:08:21 INFO  : 'configparams force-mem-access 0' command is executed.
+12:08:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test_scan/Debug/wifi_test_scan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:08:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:08:21 INFO  : 'con' command is executed.
+12:08:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:08:21 INFO  : Disconnected from the channel tcfchan#9.
+13:51:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_wifi\temp_xsdb_launch_script.tcl
+13:51:53 INFO  : XSCT server has started successfully.
+13:51:53 INFO  : Registering command handlers for Vitis TCF services
+13:51:56 INFO  : plnx-install-location is set to ''
+13:51:56 INFO  : Successfully done setting XSCT server connection channel  
+13:51:57 INFO  : Successfully done query RDI_DATADIR 
+13:51:57 INFO  : Successfully done setting workspace for the tool. 
+13:55:53 INFO  : Checking for BSP changes to sync application flags for project 'wifi_test2'...
+13:56:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:56:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+13:56:27 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+13:56:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:56:52 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:56:52 INFO  : 'jtag frequency' command is executed.
+13:56:53 INFO  : Context for 'APU' is selected.
+13:56:53 INFO  : System reset is completed.
+13:56:56 INFO  : 'after 3000' command is executed.
+13:56:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+13:56:58 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit"
+13:56:58 INFO  : Context for 'APU' is selected.
+13:56:59 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+13:56:59 INFO  : 'configparams force-mem-access 1' command is executed.
+13:56:59 INFO  : Context for 'APU' is selected.
+13:56:59 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl' is done.
+13:57:00 INFO  : 'ps7_init' command is executed.
+13:57:00 INFO  : 'ps7_post_config' command is executed.
+13:57:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:57:01 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:57:01 INFO  : 'configparams force-mem-access 0' command is executed.
+13:57:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_test2/Debug/wifi_test2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:57:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:57:01 INFO  : 'con' command is executed.
+13:57:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:57:01 INFO  : Disconnected from the channel tcfchan#1.
+14:10:52 INFO  : Checking for BSP changes to sync application flags for project 'wifi-TCPechoClient'...
+14:11:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:11:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:11:08 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit"
+14:11:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:11:13 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:11:13 INFO  : 'jtag frequency' command is executed.
+14:11:13 INFO  : Context for 'APU' is selected.
+14:11:13 INFO  : System reset is completed.
+14:11:16 INFO  : 'after 3000' command is executed.
+14:11:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:11:19 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit"
+14:11:19 INFO  : Context for 'APU' is selected.
+14:11:19 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+14:11:19 INFO  : 'configparams force-mem-access 1' command is executed.
+14:11:19 INFO  : Context for 'APU' is selected.
+14:11:19 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/psinit/ps7_init.tcl' is done.
+14:11:20 INFO  : 'ps7_init' command is executed.
+14:11:20 INFO  : 'ps7_post_config' command is executed.
+14:11:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:11:21 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/Debug/wifi-TCPechoClient.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:11:21 INFO  : 'configparams force-mem-access 0' command is executed.
+14:11:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/Debug/wifi-TCPechoClient.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:11:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:11:21 INFO  : 'con' command is executed.
+14:11:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:11:21 INFO  : Disconnected from the channel tcfchan#2.
+14:12:12 INFO  : Checking for BSP changes to sync application flags for project 'wifi-TCPechoClient'...
+14:12:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:12:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:12:35 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit"
+14:12:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:12:41 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:12:41 INFO  : 'jtag frequency' command is executed.
+14:12:41 INFO  : Context for 'APU' is selected.
+14:12:41 INFO  : System reset is completed.
+14:12:44 INFO  : 'after 3000' command is executed.
+14:12:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:12:47 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit"
+14:12:47 INFO  : Context for 'APU' is selected.
+14:12:47 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+14:12:47 INFO  : 'configparams force-mem-access 1' command is executed.
+14:12:47 INFO  : Context for 'APU' is selected.
+14:12:47 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/psinit/ps7_init.tcl' is done.
+14:12:48 INFO  : 'ps7_init' command is executed.
+14:12:48 INFO  : 'ps7_post_config' command is executed.
+14:12:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:12:48 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/Debug/wifi-TCPechoClient.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:12:49 INFO  : 'configparams force-mem-access 0' command is executed.
+14:12:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/Debug/wifi-TCPechoClient.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:12:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:12:49 INFO  : 'con' command is executed.
+14:12:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:12:49 INFO  : Disconnected from the channel tcfchan#3.
+14:13:55 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+14:14:39 INFO  : Checking for BSP changes to sync application flags for project 'wifi-TCPechoClient'...
+14:15:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:15:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:15:16 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit"
+14:15:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:15:32 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:15:32 INFO  : 'jtag frequency' command is executed.
+14:15:32 INFO  : Context for 'APU' is selected.
+14:15:32 INFO  : System reset is completed.
+14:15:35 INFO  : 'after 3000' command is executed.
+14:15:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:15:38 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit"
+14:15:38 INFO  : Context for 'APU' is selected.
+14:15:38 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa'.
+14:15:38 INFO  : 'configparams force-mem-access 1' command is executed.
+14:15:38 INFO  : Context for 'APU' is selected.
+14:15:38 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/psinit/ps7_init.tcl' is done.
+14:15:39 INFO  : 'ps7_init' command is executed.
+14:15:39 INFO  : 'ps7_post_config' command is executed.
+14:15:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:15:39 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/Debug/wifi-TCPechoClient.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:15:39 INFO  : 'configparams force-mem-access 0' command is executed.
+14:15:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/hw/design_11_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi-TCPechoClient/Debug/wifi-TCPechoClient.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:15:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:15:39 INFO  : 'con' command is executed.
+14:15:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:15:40 INFO  : Disconnected from the channel tcfchan#6.

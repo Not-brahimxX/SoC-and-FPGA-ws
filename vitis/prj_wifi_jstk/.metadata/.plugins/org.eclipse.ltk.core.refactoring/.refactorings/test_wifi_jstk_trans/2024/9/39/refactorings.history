@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;test_wifi_jstk_trans/src/main.cc&apos; to &apos;trans.cc&apos;" description="Rename resource &apos;main.cc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.cc" name="trans.cc" stamp="1727258583195" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;test_wifi_jstk_trans/src/main.cc&apos; to &apos;jstk-trans.cc&apos;" description="Rename resource &apos;main.cc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.cc" name="jstk-trans.cc" stamp="1727270015623" updateReferences="true"/>
+</session>

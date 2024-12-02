@@ -1,0 +1,9 @@
+TRACE::2024-09-04.14:34:53::SCWBifWriter::Found the complete platform C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/prj_counter_interrupt/export/prj_counter_interrupt/prj_counter_interrupt.xpfm
+TRACE::2024-09-04.14:34:53::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-09-04.14:34:53::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-04.14:34:53::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-04.14:34:53::SCWBifWriter::proc type : 
+TRACE::2024-09-04.14:34:53::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-04.14:34:53::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-04.14:34:53::SCWBifWriter::Writing BIF to file : C:/Users/PC-CLICK-PLUS/stage/vitis/prj_counter_interrupt/counter_interrupt2_system/Debug/system.bif
+TRACE::2024-09-04.14:34:53::SCWBifWriter::Writing the Zynq Baremetal bif 

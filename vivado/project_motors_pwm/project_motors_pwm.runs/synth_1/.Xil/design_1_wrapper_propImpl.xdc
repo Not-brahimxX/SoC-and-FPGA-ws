@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vivado/project_motors_pwm/project_motors_pwm.srcs/constrs_1/new/io.xdc rfile:../../../project_motors_pwm.srcs/constrs_1/new/io.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y18 [get_ports {GPIO_0_tri_o[2]}]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports {GPIO_0_tri_o[1]}]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y16 [get_ports {GPIO_0_tri_o[0]}]

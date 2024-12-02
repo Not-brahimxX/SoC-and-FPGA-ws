@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="jtsk2_servo_platforme"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+jtsk2_servo_platforme
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="jtsk2_servo_platforme">
+        <sdx:configuration sdx:name="jtsk2_servo_platforme"
+                           sdx:displayName="jtsk2_servo_platforme"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>jtsk2_servo_platforme</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="jtsk2_servo_platforme/boot/jtsk2_servo_platforme.bif"
+                            sdx:readme="jtsk2_servo_platforme/boot/generic.readme"
+                            sdx:qemuArguments="jtsk2_servo_platforme/qemu/qemu_args.txt"
+                            />
+                <sdx:image sdx:name="standalone_domain"
+                            sdx:bif="jtsk2_servo_platforme/boot/jtsk2_servo_platforme.bif"
+                            sdx:readme="jtsk2_servo_platforme/boot/generic.readme"
+                            sdx:qemuArguments="jtsk2_servo_platforme/standalone_domain/qemu/qemu_args.txt"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on ps7_cortexa9_0"
+                                sdx:cpuType="cortex-a9"
+                                sdx:cpuInstance="ps7_cortexa9_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="jtsk2_servo_platforme/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="jtsk2_servo_platforme/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="jtsk2_servo_platforme/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

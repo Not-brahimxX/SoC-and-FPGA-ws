@@ -1,0 +1,9 @@
+Nothing to build in platform 'motor_pwm_plztforme'
+
+15:26:56 **** Incremental Build of configuration Debug for project test_pwm2 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.

@@ -1,0 +1,25 @@
+2024-09-05T14:39:15.116093800255-14:39:15 **** Incremental Build of configuration Debug for project blink_led ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/led_controller_test_tut_4A.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/PC-CLICK-PLUS/stage/vitis/prj_led_vhdl/blink_led_vhdl/export/blink_led_vhdl/sw/blink_led_vhdl/standalone_domain/bspinclude/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+000-'Finished building: ../src/led_controller_test_tut_4A.c'
+000-' '
+000-'Building target: blink_led.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/PC-CLICK-PLUS/stage/vitis/prj_led_vhdl/blink_led_vhdl/export/blink_led_vhdl/sw/blink_led_vhdl/standalone_domain/bsplib/lib -o "blink_led.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: blink_led.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size blink_led.elf  |tee "blink_led.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  29580	   1544	  23256	  54380	   d46c	blink_led.elf
+000-'Finished building: blink_led.elf.size'
+000-' '
+00255-
+14:39:42 Build Finished (took 27s.30ms)
+

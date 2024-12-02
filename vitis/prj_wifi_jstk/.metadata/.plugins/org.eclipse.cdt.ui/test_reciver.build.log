@@ -1,0 +1,53 @@
+14:27:07 **** Incremental Build of configuration Debug for project test_reciver ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/reciver.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/reciver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include -MMD -MP -MF"src/reciver.d" -MT"src/reciver.o" -o "src/reciver.o" "../src/reciver.cc"
+In file included from c:\users\pc-click-plus\desktop\stage_crti\vitis\prj_wifi_jstk\rhsdfh\export\rhsdfh\sw\rhsdfh\standalone_domain\bspinclude\include\mrf24g\utility\ud_inc\internal\wf_global_includes.h:44,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/fpga/System.h:64,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/System.h:54,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/deIP.h:59,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/DEIPcK.h:64,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/PmodWIFI.h:2,
+                 from ../src/reciver.cc:52:
+c:\users\pc-click-plus\desktop\stage_crti\vitis\prj_wifi_jstk\rhsdfh\export\rhsdfh\sw\rhsdfh\standalone_domain\bspinclude\include\mrf24g\utility\wf_customize.h:50: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/fpga/System.h:62,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/System.h:54,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/deIP.h:59,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/DEIPcK.h:64,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/PmodWIFI.h:2,
+                 from ../src/reciver.cc:52:
+C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/xil_io.h:93: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/fpga/System.h:70,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/System.h:54,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/utility/deIP.h:59,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/DEIPcK/DEIPcK.h:64,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/PmodWIFI.h:2,
+                 from ../src/reciver.cc:52:
+C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bspinclude/include/xtime_l.h:85:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+'Finished building: ../src/reciver.cc'
+' '
+'Building target: test_reciver.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/rhsdfh/export/rhsdfh/sw/rhsdfh/standalone_domain/bsplib/lib -o "test_reciver.elf"  ./src/reciver.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: test_reciver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_reciver.elf  |tee "test_reciver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 186640	   3752	  40600	 230992	  38650	test_reciver.elf
+'Finished building: test_reciver.elf.size'
+' '
+
+14:27:11 Build Finished (took 4s.21ms)
+

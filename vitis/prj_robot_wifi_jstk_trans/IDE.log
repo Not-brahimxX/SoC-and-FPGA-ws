@@ -1,0 +1,16 @@
+14:30:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_robot_wifi_jstk_trans\temp_xsdb_launch_script.tcl
+14:30:31 INFO  : XSCT server has started successfully.
+14:30:31 INFO  : plnx-install-location is set to ''
+14:30:32 INFO  : Successfully done setting XSCT server connection channel  
+14:30:32 INFO  : Successfully done query RDI_DATADIR 
+14:30:32 INFO  : Successfully done setting workspace for the tool. 
+14:30:38 INFO  : Registering command handlers for Vitis TCF services
+14:32:34 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+14:47:06 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme2/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+15:13:36 INFO  : Hardware specification for platform project 'robot_wifi_jstk_trans_platforme' is updated.
+15:13:47 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme2/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+15:15:40 INFO  : Removed 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme2/export/robot_wifi_jstk_trans_platforme2' from custom platform repositories.
+15:15:50 ERROR : An unexpected exception occurred in the module 'reading platform'
+15:15:50 INFO  : Removed 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_trans_platforme/export/robot_wifi_jstk_trans_platforme' from custom platform repositories.
+15:17:35 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+15:26:33 INFO  : Removed 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_robot_wifi_jstk_trans/robot_wifi_jstk_plat/export/robot_wifi_jstk_plat' from custom platform repositories.

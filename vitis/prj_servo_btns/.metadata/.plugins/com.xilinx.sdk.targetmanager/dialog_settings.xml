@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="servo_btns-target"/>
+	<item value="false" key="servo_btns-partial_bit"/>
+	<item value="" key="servo_btns-bmmFile"/>
+	<item value="false" key="servo_btns-skip_rev_check"/>
+	<item value="servo_btns" key="programfpga.sdxproject"/>
+	<item value="Auto Detect" key="servo_btns-device"/>
+	<item value="_ide/bitstream/design_1_wrapper.bit" key="servo_btns-bitFile"/>
+</section>

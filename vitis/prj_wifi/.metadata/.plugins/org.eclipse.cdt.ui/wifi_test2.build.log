@@ -1,0 +1,49 @@
+13:55:54 **** Incremental Build of configuration Debug for project wifi_test2 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/deWebIOServer/deWebIOServerSrc.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/deWebIOServer/deWebIOServerSrc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include -MMD -MP -MF"src/deWebIOServer/deWebIOServerSrc.d" -MT"src/deWebIOServer/deWebIOServerSrc.o" -o "src/deWebIOServer/deWebIOServerSrc.o" "../src/deWebIOServer/deWebIOServerSrc.cpp"
+In file included from c:\users\pc-click-plus\desktop\stage_crti\vitis\prj_wifi\wifi_platforme2\export\wifi_platforme2\sw\wifi_platforme2\standalone_domain\bspinclude\include\mrf24g\utility\ud_inc\internal\wf_global_includes.h:44,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/DEIPcK/utility/fpga/System.h:64,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/DEIPcK/utility/System.h:54,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/DEIPcK/utility/deIP.h:59,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/DEIPcK/DEIPcK.h:64,
+                 from ../src/deWebIOServer/../HTTPServer.h:56,
+                 from ../src/deWebIOServer/deWebIOServerSrc.cpp:49:
+c:\users\pc-click-plus\desktop\stage_crti\vitis\prj_wifi\wifi_platforme2\export\wifi_platforme2\sw\wifi_platforme2\standalone_domain\bspinclude\include\mrf24g\utility\wf_customize.h:50: warning: "INLINE" redefined
+ #define INLINE
+ 
+In file included from ../src/deWebIOServer/../HTTPServer.h:54,
+                 from ../src/deWebIOServer/deWebIOServerSrc.cpp:49:
+C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/xil_io.h:93: note: this is the location of the previous definition
+ #define INLINE inline
+ 
+In file included from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/DEIPcK/utility/fpga/System.h:70,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/DEIPcK/utility/System.h:54,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/DEIPcK/utility/deIP.h:59,
+                 from C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/DEIPcK/DEIPcK.h:64,
+                 from ../src/deWebIOServer/../HTTPServer.h:56,
+                 from ../src/deWebIOServer/deWebIOServerSrc.cpp:49:
+C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bspinclude/include/xtime_l.h:85:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+'Finished building: ../src/deWebIOServer/deWebIOServerSrc.cpp'
+' '
+'Building target: wifi_test2.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi/wifi_platforme2/export/wifi_platforme2/sw/wifi_platforme2/standalone_domain/bsplib/lib -o "wifi_test2.elf"  ./src/deWebIOServer/HTMLGetPins.o ./src/deWebIOServer/deWebIOServerSrc.o  ./src/SD/utility/fs_ff.o  ./src/SD/DFATFS.o ./src/SD/DSDIOVOL.o ./src/SD/fs_diskio.o  ./src/HTMLReboot.o ./src/HTMLRestart.o ./src/HTMLSDPage.o ./src/HTMLTerminate.o ./src/HTTPHelpers.o ./src/Helper.o ./src/ProcessClient.o ./src/ProcessServer.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: wifi_test2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size wifi_test2.elf  |tee "wifi_test2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 272964	   3888	  48576	 325428	  4f734	wifi_test2.elf
+'Finished building: wifi_test2.elf.size'
+' '
+
+13:56:00 Build Finished (took 6s.745ms)
+

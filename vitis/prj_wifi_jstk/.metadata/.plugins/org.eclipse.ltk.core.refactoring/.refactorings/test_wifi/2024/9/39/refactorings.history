@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;test_wifi/src/main.cc&apos; to &apos;UDPtrans.cc&apos;" description="Rename resource &apos;main.cc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.cc" name="UDPtrans.cc" stamp="1727346002848" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# 
+# Start of session at: Tue Sep 24 16:08:05 2024
+# Process ID: 13516
+# Current directory: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/webtalk/webtalk.log
+# Journal file: C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_wifi_jstk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl
+# webtalk_init -webtalk_dir C:\\Users\\PC-CLICK-PLUS\\Desktop\\Stage_CRTI\\vitis\\prj_wifi_jstk\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "2024-09-24 16:08:01" -context "software_version_and_target_device"

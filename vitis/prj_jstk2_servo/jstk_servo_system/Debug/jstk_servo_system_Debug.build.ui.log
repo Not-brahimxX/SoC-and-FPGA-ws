@@ -1,0 +1,10 @@
+2024-09-22T11:40:16.125967800255-11:40:16 **** Build of configuration Debug for project jstk_servo_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 55485 C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/jtsk2_servo_platforme.xpfm standalone_domain C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/jtsk2_servo_platforme.xpfm --sys_config jtsk2_servo_platforme --bif C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo_system/Debug/system.bif --bitstream C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit
+000-Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+11:40:28 Build Finished (took 12s.515ms)
+

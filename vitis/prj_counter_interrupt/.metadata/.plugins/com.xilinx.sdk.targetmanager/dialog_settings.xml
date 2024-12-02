@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="counter_interrupt-skip_rev_check"/>
+	<item value="" key="counter_interrupt-bmmFile"/>
+	<item value="counter_interrupt" key="programfpga.sdxproject"/>
+	<item value="Auto Detect" key="counter_interrupt-device"/>
+	<item value="false" key="counter_interrupt-partial_bit"/>
+	<item value="C:\Users\PC-CLICK-PLUS\stage\vivado\project_counter_interr\design_1_wrapper.bit" key="counter_interrupt-bitFile"/>
+	<item value="Local" key="counter_interrupt-target"/>
+</section>

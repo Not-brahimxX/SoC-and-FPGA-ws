@@ -1,0 +1,74 @@
+#include "DEIpck.h"
+#include "DWFck.h"
+#include "mrf24.h" // Hypothetical library for MRF24 WiFi PMOD
+
+// Constants for WiFi
+#define SSID "Your_SSID"
+#define PASSWORD "Your_PASSWORD"
+#define MAX_CLIENTS 5
+
+// Function prototypes
+void initializeWiFi();
+void handleClientConnection();
+void sendResponseToClient(int clientSocket);
+
+int main() {
+    // Initialize the ZedBoard and peripherals
+    ZedBoard_init();
+
+    // Initialize the MRF24 WiFi module
+    initializeWiFi();
+
+    // Main loop
+    while (1) {
+        handleClientConnection();
+    }
+
+    return 0;
+}
+
+void initializeWiFi() {
+    // Initialize MRF24
+    if (mrf24_init() != 0) {
+        // Handle initialization error
+        printf("MRF24 initialization failed!\n");
+        return;
+    }
+
+    // Set the module to AP mode
+    mrf24_set_mode(MRF24_AP_MODE);
+
+    // Set SSID and password
+    mrf24_set_ssid(SSID);
+    mrf24_set_password(PASSWORD);
+
+    // Start the hotspot
+    if (mrf24_start_hotspot() != 0) {
+        // Handle error starting hotspot
+        printf("Failed to start hotspot!\n");
+        return;
+    }
+
+    printf("WiFi hotspot started: SSID: %s\n", SSID);
+}
+
+void handleClientConnection() {
+    int clientSocket = mrf24_accept_connection(); // Blocking call to wait for clients
+
+    if (clientSocket >= 0) {
+        // Client connected
+        printf("Client connected!\n");
+
+        // Send a welcome message to the client
+        sendResponseToClient(clientSocket);
+
+        // Close the client socket after communication
+        mrf24_close_connection(clientSocket);
+    }
+}
+
+void sendResponseToClient(int clientSocket) {
+    const char* response = "Welcome to the WiFi Hotspot!\n";
+    mrf24_send(clientSocket, response, strlen(response));
+    printf("Response sent to client.\n");
+}

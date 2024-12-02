@@ -1,0 +1,10 @@
+2024-09-24T11:47:39.210485200255-11:47:39 **** Incremental Build of configuration Debug for project wifi_test_scan ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-make[1]: Nothing to be done for 'main-build'.
+00255-
+11:47:39 Build Finished (took 598ms)
+

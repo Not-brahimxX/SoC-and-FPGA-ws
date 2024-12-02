@@ -1,0 +1,27 @@
+Nothing to build in platform 'jtsk2_servo_platforme'
+
+11:54:33 **** Incremental Build of configuration Debug for project jstk_servo ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/basic_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/basic_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/sw/jtsk2_servo_platforme/standalone_domain/bspinclude/include -MMD -MP -MF"src/basic_example.d" -MT"src/basic_example.o" -o "src/basic_example.o" "../src/basic_example.c"
+../src/basic_example.c:57:12: warning: 'IntcInitFunction' declared 'static' but never defined [-Wunused-function]
+ static int IntcInitFunction(u16 DeviceId, XGpio *GpioInstancePtr);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/basic_example.c'
+' '
+'Building target: jstk_servo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/sw/jtsk2_servo_platforme/standalone_domain/bsplib/lib -o "jstk_servo.elf"  ./src/basic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: jstk_servo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size jstk_servo.elf  |tee "jstk_servo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37140	   1592	  23384	  62116	   f2a4	jstk_servo.elf
+'Finished building: jstk_servo.elf.size'
+' '

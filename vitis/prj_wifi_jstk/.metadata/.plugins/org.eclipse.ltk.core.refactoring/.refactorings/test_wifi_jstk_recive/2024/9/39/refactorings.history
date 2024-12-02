@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;test_wifi_jstk_recive/src/main.cc&apos; to &apos;jstk-reciver.cc&apos;" description="Rename resource &apos;main.cc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.cc" name="jstk-reciver.cc" stamp="1727270002602" updateReferences="true"/>
+</session>

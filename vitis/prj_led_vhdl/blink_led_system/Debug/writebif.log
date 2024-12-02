@@ -1,0 +1,18 @@
+TRACE::2024-09-05.14:24:46::SCWBifWriter::Found the complete platform C:/Users/PC-CLICK-PLUS/stage/vitis/prj_led_vhdl/blink_led_vhdl/export/blink_led_vhdl/blink_led_vhdl.xpfm
+TRACE::2024-09-05.14:24:46::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-09-05.14:24:46::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-05.14:24:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-05.14:24:46::SCWBifWriter::proc type : 
+TRACE::2024-09-05.14:24:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-05.14:24:46::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-05.14:24:46::SCWBifWriter::Writing BIF to file : C:/Users/PC-CLICK-PLUS/stage/vitis/prj_led_vhdl/blink_led_system/Debug/system.bif
+TRACE::2024-09-05.14:24:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-05.14:27:19::SCWBifWriter::Found the complete platform C:/Users/PC-CLICK-PLUS/stage/vitis/prj_led_vhdl/blink_led_vhdl/export/blink_led_vhdl/blink_led_vhdl.xpfm
+TRACE::2024-09-05.14:27:20::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-09-05.14:27:20::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-05.14:27:20::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-05.14:27:20::SCWBifWriter::proc type : 
+TRACE::2024-09-05.14:27:20::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-05.14:27:20::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-05.14:27:20::SCWBifWriter::Writing BIF to file : C:/Users/PC-CLICK-PLUS/stage/vitis/prj_led_vhdl/blink_led_system/Debug/system.bif
+TRACE::2024-09-05.14:27:20::SCWBifWriter::Writing the Zynq Baremetal bif 

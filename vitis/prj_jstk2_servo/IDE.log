@@ -1,0 +1,267 @@
+11:33:44 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_jstk2_servo\temp_xsdb_launch_script.tcl
+11:33:49 INFO  : XSCT server has started successfully.
+11:33:50 INFO  : plnx-install-location is set to ''
+11:33:50 INFO  : Successfully done setting XSCT server connection channel  
+11:33:50 INFO  : Successfully done query RDI_DATADIR 
+11:33:50 INFO  : Successfully done setting workspace for the tool. 
+11:33:53 INFO  : Registering command handlers for Vitis TCF services
+11:35:16 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+11:35:16 INFO  : Successfully done sdx_reload_mss "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+11:40:11 INFO  : Checking for BSP changes to sync application flags for project 'jstk_servo'...
+11:41:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:41:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:41:15 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+11:41:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:41:31 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:41:31 INFO  : 'jtag frequency' command is executed.
+11:41:31 INFO  : Context for 'APU' is selected.
+11:41:31 INFO  : System reset is completed.
+11:41:34 INFO  : 'after 3000' command is executed.
+11:41:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:41:37 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+11:41:37 INFO  : Context for 'APU' is selected.
+11:41:37 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa'.
+11:41:37 INFO  : 'configparams force-mem-access 1' command is executed.
+11:41:37 INFO  : Context for 'APU' is selected.
+11:41:37 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl' is done.
+11:41:38 INFO  : 'ps7_init' command is executed.
+11:41:38 INFO  : 'ps7_post_config' command is executed.
+11:41:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:41:38 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:41:38 INFO  : 'configparams force-mem-access 0' command is executed.
+11:41:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:41:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:41:38 INFO  : 'con' command is executed.
+11:41:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:41:38 INFO  : Disconnected from the channel tcfchan#3.
+11:51:33 INFO  : Checking for BSP changes to sync application flags for project 'jstk_servo'...
+11:51:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:51:48 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+11:51:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:54 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:51:54 INFO  : 'jtag frequency' command is executed.
+11:51:54 INFO  : Context for 'APU' is selected.
+11:51:54 INFO  : System reset is completed.
+11:51:57 INFO  : 'after 3000' command is executed.
+11:51:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:52:00 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+11:52:00 INFO  : Context for 'APU' is selected.
+11:52:00 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa'.
+11:52:00 INFO  : 'configparams force-mem-access 1' command is executed.
+11:52:00 INFO  : Context for 'APU' is selected.
+11:52:00 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl' is done.
+11:52:01 INFO  : 'ps7_init' command is executed.
+11:52:01 INFO  : 'ps7_post_config' command is executed.
+11:52:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:52:01 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:52:01 INFO  : 'configparams force-mem-access 0' command is executed.
+11:52:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:52:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:52:01 INFO  : 'con' command is executed.
+11:52:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:52:01 INFO  : Disconnected from the channel tcfchan#4.
+11:54:33 INFO  : Checking for BSP changes to sync application flags for project 'jstk_servo'...
+11:54:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:54:46 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+11:54:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:51 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:54:51 INFO  : 'jtag frequency' command is executed.
+11:54:51 INFO  : Context for 'APU' is selected.
+11:54:51 INFO  : System reset is completed.
+11:54:54 INFO  : 'after 3000' command is executed.
+11:54:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:54:56 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+11:54:56 INFO  : Context for 'APU' is selected.
+11:54:56 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa'.
+11:54:56 INFO  : 'configparams force-mem-access 1' command is executed.
+11:54:56 INFO  : Context for 'APU' is selected.
+11:54:56 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl' is done.
+11:54:57 INFO  : 'ps7_init' command is executed.
+11:54:57 INFO  : 'ps7_post_config' command is executed.
+11:54:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:57 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:54:57 INFO  : 'configparams force-mem-access 0' command is executed.
+11:54:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:54:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:57 INFO  : 'con' command is executed.
+11:54:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:54:57 INFO  : Disconnected from the channel tcfchan#5.
+13:18:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:19:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:19:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+13:19:29 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+13:19:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:19:37 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:19:37 INFO  : 'jtag frequency' command is executed.
+13:19:37 INFO  : Context for 'APU' is selected.
+13:19:37 INFO  : System reset is completed.
+13:19:40 INFO  : 'after 3000' command is executed.
+13:19:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+13:19:43 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+13:19:43 INFO  : Context for 'APU' is selected.
+13:19:43 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa'.
+13:19:43 INFO  : 'configparams force-mem-access 1' command is executed.
+13:19:43 INFO  : Context for 'APU' is selected.
+13:19:43 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl' is done.
+13:19:44 INFO  : 'ps7_init' command is executed.
+13:19:44 INFO  : 'ps7_post_config' command is executed.
+13:19:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:19:44 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:19:44 INFO  : 'configparams force-mem-access 0' command is executed.
+13:19:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:19:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:19:44 INFO  : 'con' command is executed.
+13:19:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:19:44 INFO  : Disconnected from the channel tcfchan#6.
+13:48:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_jstk2_servo\temp_xsdb_launch_script.tcl
+13:48:28 INFO  : XSCT server has started successfully.
+13:48:28 INFO  : plnx-install-location is set to ''
+13:48:28 INFO  : Successfully done setting XSCT server connection channel  
+13:48:28 INFO  : Successfully done setting workspace for the tool. 
+13:48:28 INFO  : Registering command handlers for Vitis TCF services
+13:48:36 INFO  : Successfully done query RDI_DATADIR 
+13:48:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:48:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+13:48:49 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+13:48:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:48:56 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:48:56 INFO  : 'jtag frequency' command is executed.
+13:48:56 INFO  : Context for 'APU' is selected.
+13:48:56 INFO  : System reset is completed.
+13:48:59 INFO  : 'after 3000' command is executed.
+13:49:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+13:49:02 INFO  : FPGA configured successfully with bitstream "C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit"
+13:49:02 INFO  : Context for 'APU' is selected.
+13:49:02 INFO  : Hardware design information is loaded from 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa'.
+13:49:02 INFO  : 'configparams force-mem-access 1' command is executed.
+13:49:02 INFO  : Context for 'APU' is selected.
+13:49:02 INFO  : Sourcing of 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl' is done.
+13:49:03 INFO  : 'ps7_init' command is executed.
+13:49:03 INFO  : 'ps7_post_config' command is executed.
+13:49:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:49:03 INFO  : The application 'C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:49:03 INFO  : 'configparams force-mem-access 0' command is executed.
+13:49:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1
+fpga -file C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jtsk2_servo_platforme/export/jtsk2_servo_platforme/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/PC-CLICK-PLUS/Desktop/Stage_CRTI/vitis/prj_jstk2_servo/jstk_servo/Debug/jstk_servo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:49:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:49:03 INFO  : 'con' command is executed.
+13:49:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:49:03 INFO  : Disconnected from the channel tcfchan#1.
+13:52:02 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\PC-CLICK-PLUS\Desktop\Stage_CRTI\vitis\prj_jstk2_servo\temp_xsdb_launch_script.tcl
+13:52:18 INFO  : Registering command handlers for Vitis TCF services
+13:52:21 INFO  : XSCT server has started successfully.
+13:52:22 INFO  : plnx-install-location is set to ''
+13:52:23 INFO  : Successfully done setting XSCT server connection channel  
+13:52:23 INFO  : Successfully done query RDI_DATADIR 
+13:52:23 INFO  : Successfully done setting workspace for the tool. 

@@ -1,0 +1,41 @@
+#include "xgpio.h"
+#include "sleep.h"
+
+#define GPIO_DEVICE_ID XPAR_GPIO_0_DEVICE_ID  // Change this to your GPIO device ID
+#define PWM_PIN 0x01  // Assume PWM is connected to GPIO pin 0
+
+XGpio Gpio;  // GPIO instance
+
+void generate_pwm(u32 duty_cycle, u32 frequency) {
+    u32 period = 1000000 / frequency;  // Period in microseconds
+    u32 high_time = (period * duty_cycle) / 100;  // Time the signal stays high
+    u32 low_time = period - high_time;  // Time the signal stays low
+
+    while (1) {
+        // Set GPIO high
+        XGpio_DiscreteWrite(&Gpio, 1, PWM_PIN);
+        usleep(high_time);
+
+        // Set GPIO low
+        XGpio_DiscreteWrite(&Gpio, 1, 0);
+        usleep(low_time);
+    }
+}
+
+int main() {
+    int status;
+
+    // Initialize the GPIO driver
+    status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+    if (status != XST_SUCCESS) {
+        return XST_FAILURE;
+    }
+
+    // Set the GPIO direction to output for channel 1
+    XGpio_SetDataDirection(&Gpio, 1, 0x00);
+
+    // Generate a PWM signal with a 50% duty cycle and 1 kHz frequency
+    generate_pwm(50, 1000);
+
+    return 0;
+}
